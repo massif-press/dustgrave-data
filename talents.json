@@ -17,7 +17,7 @@
             "name": "Subterranean Reposition",
             "activation": "Reaction",
             "frequency": "1/round",
-            "trigger": "You are completely within the Burst of an Entrance.",
+            "trigger": "During your turn, you are completely within an Entrance.",
             "detail": "Immediately Tunnel. You must end the movement completely within the Burst of a different Entrance created by the same character as the first."
           }
         ]
