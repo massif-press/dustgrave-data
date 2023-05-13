@@ -47,27 +47,27 @@
     ],
     "source": "EXOTIC",
     "license_level": 0,
-    "effect": "You may expend a charge to activate this system as a Protocol. If you, do you may pick any number of the following stims and apply their effects. Roll 1d6 for each, if any two dice show the same result you immediately become Stunned until the end of your current turn instead of applying the effects. All stim effects last until the start of your next turn.",
+    "effect": "As a protocol, you may expend a charge to pick any number of the following stims and apply their effects. Roll 1d6 for each stim chosen: if any two dice show the same result, you immediately become Stunned until the end of your current turn instead of applying the effects. All effects from this system last until the start of your next turn.",
     "actions": [
       {
         "name": "Agitron",
         "activation": "Protocol",
-        "detail": "You become Impaired.<br>You gain Immunity to Shredded.<br>Your Melee attacks gain Knockback 1 and +2 bonus damage."
+        "detail": "<ul><li>You become Impaired.</li><li>You gain Immunity to Shredded.</li><li>Your Melee attacks gain Knockback 1 and deal +2 bonus damage.</li></ul>"
       },
       {
         "name": "Enduritran",
         "activation": "Protocol",
-        "detail": "You become Jammed.<br>You gain Immunity to Impaired.<br>Your armor increases by 2, this may bring you above 4 Armor."
+        "detail": "<ul><li>You become Jammed.</li><li>You gain Immunity to Impaired.</li><li>You gain +2 Armor. This may bring you above 4 Armor.</li></ul>"
       },
       {
         "name": "Edge",
         "activation": "Protocol",
-        "detail": "You become Slowed.<br>You gain Immunity to Jammed.<br>Your next attack this turn gains +1 Accuracy."
+        "detail": "<ul><li>You become Slowed.</li><li>You gain Immunity to Jammed.</li><li>Your next attack this turn gains +1 Accuracy.</li></ul>"
       },
       {
         "name": "Nerve Boosters",
         "activation": "Protocol",
-        "detail": "You become Shredded.<br>You gain Immunity to Slowed.<br>You gain +1 Speed and ignore Engagement and your movements do not trigger Reactions."
+        "detail": "<ul><li>You become Shredded.</li><li>You gain Immunity to Slowed.</li><li>You gain +1 Speed and ignore Engagement and your movements do not trigger Reactions.</li></ul>"
       }
     ],
     "description": "Powerful stim pumps are directly wired into the cockpit and intravenously administer the pilot with a potent slew of drugs. While they can enhance a pilot’s combat ability to superhuman levels, users should be keenly aware of the substances’ various side effects. While the apparatus is theoretically capable of mixing and administering complex drug cocktails this should be done with extreme caution, as the wrong mixtures or doses may lead to sudden cardiac arrest, requiring resuscitation of the pilot via in-built defibrillators and an injection of “adrenadron” to purge their system.",
@@ -87,8 +87,8 @@
     ],
     "source": "EXOTIC",
     "license_level": 0,
-    "effect": "1/Scene when targeted by a Tech attack you may give that attack +1 Difficulty as a Reaction. You gain Immunity to the MesmerTrance environmental effect.",
-    "description": "Handed to you by the Talons, the MesmerTrance dampener supposedly stops the highly advanced and aggressive “MesmerTrance” virus from affecting your mech. As a side effect. it also provides limited protection against other, less sophisticated attacks on your mech’s systems.",
+    "effect": "1/Scene as a reaction when you are targeted by a tech attack, you may give that attack +1 Difficulty. Additionally, you gain Immunity to the MesmerTrance environmental hazard.",
+    "description": "Handed to you by the Talons, the MesmerTrance dampener supposedly stops the highly advanced and aggressive “MesmerTrance” virus from affecting your mech. As a side effect, it also provides limited protection against other, less sophisticated attacks on your mech’s systems.",
     "license_id": ""
   },
   {
@@ -107,7 +107,7 @@
     "license": "GMS",
     "license_level": 0,
     "effect": "You may choose to ignore weapon destruction as a result of the SYSTEM TRAUMA result when taking structure damage. This system can only be used once before each FULL REPAIR, and is not a valid target for system destruction.",
-    "description": "By installing additional armor plating, redundant firing circuits and enhanced insulation to magazines the longevity of a frame’s armaments can be greatly enhanced.",
+    "description": "By installing additional armor plating, redundant firing circuits, and enhanced insulation to magazines the longevity of a frame’s armaments can be greatly enhanced.",
     "license_id": ""
   }
 ]

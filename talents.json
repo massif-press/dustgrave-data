@@ -58,7 +58,7 @@
       },
       {
         "name": "Transcension",
-        "description": "Gain a Transcendence Die, a d3 starting at 3. When using “Transmuting Spark,” reduce the die by 1. If the die is at 1 when you use “Transmuting Spark,” you may immediately enter a transcendent state and reset the Transcendence Die to 3. This has the following effects until the end of your next turn: <br>● Your Transcendence Die can’t decrease. <br>● “Memetic Spark” increases its damage by 4 and Range by 5. <br>● Unless flying or climbing, you are forced to permanently Hover exactly 1 Space above any surface at all times. <br>● You gain Immunity to involuntary movement. <br>Whenever you cascade and lose control of your mech, you enter a transcendent state for the duration. Cascading NHPs have access to the benefits of this Talent. Your Transcendence Die resets at the end of the Scene."
+        "description": "Gain a Transcendence Die, a d3 starting at 3. When using “Transmuting Spark,” reduce the die by 1. If the die is at 1 when you use “Transmuting Spark,” you may immediately enter a transcendent state and reset the Transcendence Die to 3. This has the following effects until the end of your next turn: <br><ul><li>Your Transcendence Die can’t decrease.</li><li>“Memetic Spark” increases its damage by 4 and Range by 5.</li><li>Unless flying or climbing, you are forced to permanently Hover exactly 1 Space above any surface at all times.</li><li>You gain Immunity to involuntary movement.</li></ul><br>Whenever you cascade and lose control of your mech, you enter a transcendent state for the duration. Cascading NHPs have access to the benefits of this Talent. Your Transcendence Die resets at the end of the Scene."
       }
     ],
     "icon_url": "https://i.imgur.com/R0vZWwL.png"
@@ -87,7 +87,7 @@
       },
       {
         "name": "Active Interference",
-        "description": "Whenever a hostile character in line of sight hits with an attack, you know what they rolled. <br>You may use the Superior Intelligence Reaction when a hostile character in Line of Sight has rolled an Attack Roll. Instead of adding to the attack roll you subtract from it in the same manner. Each attack roll can only be affected this way once."
+        "description": "Whenever a hostile character in line of sight hits with an attack, you know what they rolled. <br>You may also use “Superior Intelligence” when a hostile character in Line of Sight has rolled an Attack Roll. Instead of adding to the attack roll, you subtract from it in the same manner. Each attack roll can only be affected this way once."
       }
     ],
     "icon_url": "https://i.imgur.com/YMwpX9P.png"

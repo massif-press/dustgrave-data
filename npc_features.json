@@ -133,7 +133,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "",
+    "effect": "Additionally, if the Horror destroys another character with this weapon, allied or hostile, or hits a wreck, they regain {10/15/20} HP. Wrecks and allies are automatically hit by this weapon. Wrecks hit by this weapon are automatically destroyed.",
     "weapon_type": "Superheavy Melee",
     "attack_bonus": [
       1,
@@ -156,7 +156,7 @@
         "val": 1
       }
     ],
-    "on_hit": "If the target is at half or less HP after this attack is resolved, they must succeed on a Hull save or be reduced to 0 HP. Additionally, if the Horror destroys another character with this weapon, allied or hostile, or hits a wreck, they regain {10/15/20} HP. Wrecks and allies are automatically hit by this weapon. Wrecks hit by this weapon are automatically destroyed."
+    "on_hit": "If the target is at half or less HP after this attack is resolved, they must succeed on a Hull save or be reduced to 0 HP."
   },
   {
     "id": "npcf_phase_shift_generator_horror",
@@ -233,9 +233,9 @@
     ],
     "weapon_type": "Superheavy Melee",
     "attack_bonus": [
+      1,
       2,
-      4,
-      6
+      3
     ],
     "damage": [
       {
@@ -355,9 +355,9 @@
     "effect": "This Attack can make {1/2/3} attacks. If one of these attacks knocks a character back into a piece of terrain that stops their movement, they become Immobilized until the end of their next turn.",
     "weapon_type": "Main Cannon",
     "attack_bonus": [
+      1,
       2,
-      4,
-      6
+      3
     ],
     "tags": [
       {
@@ -397,7 +397,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "On critical hit: This weapon's base damage is doubled.",
+    "effect": "On critical hit: This weapon’s base damage is doubled.",
     "weapon_type": "Main Melee",
     "attack_bonus": [
       2,
@@ -599,7 +599,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "This character's Ranged Attacks gain “<b>On critical hit:</b> The target is knocked Prone.” <br>Additionally, before making a Ranged Attack that deals Kinetic, Energy, or Explosive Damage, the Spec Ops may swap that damage type for one of the other two."
+    "effect": "This character’s Ranged Attacks gain “<b>On critical hit:</b> The target is knocked Prone.” <br>Additionally, before making a Ranged Attack that deals Kinetic, Energy, or Explosive Damage, the Spec Ops may swap that damage type for one of the other two."
   },
   {
     "id": "npcf_bulwark_mods_spec_op",

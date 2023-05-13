@@ -28,7 +28,7 @@
     "traits": [
       {
         "name": "Dynamic Reload",
-        "description": "The Störtebeker’s non-Auxiliary weapons gain the following effects: <br>Melee weapons gain: “On critical hit: Reload all ranged weapons not used to attack this turn.” <br>Ranged weapons gain: “On critical hit: Reload all melee weapons not used to attack this turn.”",
+        "description": "The Störtebeker’s non-Auxiliary weapons gain the following effects: <br><ul><li><b>Melee weapons</b> gain: “On critical hit: Reload all ranged weapons not used to attack this turn.”</li><li><b>Ranged weapons</b> gain: “On critical hit: Reload all melee weapons not used to attack this turn.”</li></ul>",
         "synergies": [
           {
             "locations": ["weapon"],
@@ -46,13 +46,13 @@
       },
       {
         "name": "Truesilver",
-        "description": "1/Scene after hitting with a weapon the Störtebeker may apply an effect depending on its type. <br>Non-Loading weapon: The hit is treated as a Critical Hit. Any resulting damage is not rolled twice. <br>Loading weapon: Any resulting damage can’t be reduced.",
+        "description": "1/Scene, after hitting with a weapon, the Störtebeker may apply one of the following effects depending on the weapon’s type. <br><ul><li><b>Non-Loading weapon:</b> The hit is treated as a Critical Hit. Resulting damage is not rolled twice.</li><li><b>Loading weapon:</b> Resulting damage can’t be reduced.</li></ul>",
         "synergies": [
           {
             "locations": ["weapon"],
             "weapon_types": ["any"],
             "weapon_sizes": ["any"],
-            "detail": "1/Scene, after hitting with a weapon, the Störtebeker may apply one of the following effects depending on the weapon's type. <br>Non-Loading weapon: The hit is treated as a Critical Hit. Resulting damage is not rolled twice. <br>Loading weapon: Resulting damage can’t be reduced."
+            "detail": "1/Scene, after hitting with a weapon, the Störtebeker may apply one of the following effects depending on the weapon’s type. <br><ul><li><b>Non-Loading weapon:</b> The hit is treated as a Critical Hit. Resulting damage is not rolled twice.</li><li><b>Loading weapon:</b> Resulting damage can’t be reduced.</li></ul>"
           }
         ]
       }
@@ -133,7 +133,7 @@
       "name": "SSC-41 Tengu-Assisted Missile Tubes",
       "description": "By redlining its integrated Vigilante launchers, the Viceroy can deliver a devastating saturation bombardment of its close surroundings. Weathering the onslaught thanks to its blast-resistant exterior, the Viceroy can utilize this salvo, when coupled with the miniaturized Tengu one-burst jump system, for a variety of advanced battlefield tactics. This allows it to either deliver a near-unstoppable alpha strike or make a dramatic exit. “Heaven’s downpour” is a technique that strikes fear in any that face a Viceroy pilot in combat.",
       "active_name": "Heaven’s Downpour",
-      "active_effect": "Center a Burst 3 missile swarm on yourself. Hostile characters in the area must succeed on a Hull save or take 1d6+3 Explosive damage and be knocked Prone. On a successful save they take half damage and remain standing. You may consume an affected character's Lock On to make them automatically fail the save. <br>Before or after taking this action you may Fly up to your Speed, ignoring Engagement and Reactions. You must end this movement on solid ground or begin falling.",
+      "active_effect": "Center a Burst 3 missile swarm on yourself. Hostile characters in the area must succeed on a Hull save or take 1d6+3 Explosive damage and be knocked Prone. On a successful save they take half damage and remain standing. You may consume an affected character’s Lock On to make them automatically fail the save. <br>Before or after taking this action you may Fly up to your Speed, ignoring Engagement and Reactions. You must end this movement on solid ground or begin falling.",
       "use": "Encounter",
       "activation": "Quick"
     },
