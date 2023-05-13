@@ -1,7 +1,7 @@
 [
   {
     "id": "mw_brutus_wrecker",
-    "name": "BRUTUS'S WRECKER",
+    "name": "Brutus’s Wrecker",
     "mount": "Heavy",
     "type": "Melee",
     "damage": [
@@ -44,7 +44,7 @@
   },
   {
     "id": "mw_brutus_shield",
-    "name": "BRUTUS'S SHIELD",
+    "name": "Brutus’s Shield",
     "mount": "Main",
     "type": "Melee",
     "damage": [
@@ -75,7 +75,7 @@
   },
   {
     "id": "mw_blast_pick",
-    "name": "BLAST PICK",
+    "name": "Blast Pick",
     "mount": "Heavy",
     "type": "Melee",
     "profiles": [
@@ -136,7 +136,7 @@
   },
   {
     "id": "mw_shock_baton",
-    "name": "SHOCK BATON",
+    "name": "Shock Baton",
     "mount": "Main",
     "type": "Melee",
     "damage": [
@@ -169,7 +169,7 @@
   },
   {
     "id": "mw_reaper_assault_cannon",
-    "name": "REAPER ASSAULT CANNON",
+    "name": "Reaper Assault Cannon",
     "mount": "Main",
     "type": "Cannon",
     "profiles": [

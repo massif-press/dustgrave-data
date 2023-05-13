@@ -1,7 +1,7 @@
 [
   {
     "id": "ms_iconoclast",
-    "name": "UNSTABLE NHP",
+    "name": "Unstable NHP",
     "type": "AI",
     "talent_item": true,
     "talent_id": "t_iconoclast",
@@ -30,7 +30,7 @@
   },
   {
     "id": "ms_cockpit_integrated_stim_pump",
-    "name": "COCKPIT INTEGRATED STIM PUMP",
+    "name": "Cockpit Integrated Stim Pump",
     "sp": 2,
     "tags": [
       {
@@ -59,7 +59,7 @@
         "detail": "You become Jammed.<br>You gain Immunity to Impaired.<br>Your armor increases by 2, this may bring you above 4 Armor."
       },
       {
-        "name": "EDGE",
+        "name": "Edge",
         "activation": "Protocol",
         "detail": "You become Slowed.<br>You gain Immunity to Jammed.<br>Your next attack this turn gains +1 Accuracy."
       },
@@ -74,7 +74,7 @@
   },
   {
     "id": "ms_mesmertrance_dampener",
-    "name": "MESMERTRANCE DAMPENER",
+    "name": "Mesmertrance Dampener",
     "sp": 1,
     "tags": [
       {

@@ -35,7 +35,7 @@
   },
   {
     "id": "t_iconoclast",
-    "name": "ICONOCLAST",
+    "name": "Iconoclast",
     "description": "You have acquired an NHP, or has it acquired you? Together you have set out to achieve greatness and push boundaries. The two of you are in it together and you’ll be able to achieve fantastical things. Perhaps you’re unaware of the risks; perhaps you willfully choose to ignore them. The power you can tap into with the help of your companion is, however, undeniable. And with such power, who is to stop the two of you from breaking some taboos?",
     "ranks": [
       {
@@ -65,7 +65,7 @@
   },
   {
     "id": "t_field_analyst",
-    "name": "FIELD ANALYST",
+    "name": "Field Analyst",
     "description": "You’ve always been perceptive, able to analyze the flow of battle and come up with strategies on the spot. You’re the mastermind behind the scenes, helping your allies out in battle in various ways. From subtle nudges to your comrades when aiming their weapons to devising advanced firing solutions or tailor-made evasive patterns. With your support, any battle your allies find themselves in is sure to end in success.",
     "ranks": [
       {

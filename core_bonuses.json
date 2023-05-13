@@ -1,7 +1,7 @@
 [
   {
     "id": "cb_superheavy_mounting",
-    "name": "SUPERHEAVY MOUNTING",
+    "name": "Superheavy Mounting",
     "source": "GMS",
     "effect": "If your mech has fewer than 3 mounts (excluding integrated mounts) it gains an additional superheavy mount. It can only take SUPERHEAVY WEAPONS. They still require an additional mount to be installed. If your mech also has a heavy mount the SUPERHEAVY WEAPON must use that mount as the additional mount.",
     "description": "You'd be surprised how large a gun you can fit in a frame if you rip out peripheral systems and failsafe redundancies."

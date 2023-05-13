@@ -1,7 +1,7 @@
 [
   {
     "id": "npcf_abomination_horror",
-    "name": "ABOMINATION",
+    "name": "Abomination",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -13,7 +13,7 @@
   },
   {
     "id": "npcf_mutations_horror",
-    "name": "MUTATIONS",
+    "name": "Mutations",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -25,7 +25,7 @@
   },
   {
     "id": "npcf_disruptor_whip_horror",
-    "name": "DISRUPTOR WHIP",
+    "name": "Disruptor Whip",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -65,7 +65,7 @@
   },
   {
     "id": "npcf_quadruped_horror",
-    "name": "QUADRUPED",
+    "name": "Quadruped",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -77,7 +77,7 @@
   },
   {
     "id": "npcf_superfluous_extremeties_horror",
-    "name": "SUPERFLUOUS EXTREMETIES",
+    "name": "Superfluous Extremeties",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -89,7 +89,7 @@
   },
   {
     "id": "npcf_artificial_horror",
-    "name": "ARTIFICIAL",
+    "name": "Artificial",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -101,7 +101,7 @@
   },
   {
     "id": "npcf_terrifying_horror",
-    "name": "TERRIFYING",
+    "name": "Terrifying",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -113,7 +113,7 @@
   },
   {
     "id": "npcf_abhorrent_redundancies_horror",
-    "name": "ABHORRENT REDUNDANCIES",
+    "name": "Abhorrent Redundancies",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -125,7 +125,7 @@
   },
   {
     "id": "npcf_assimilaiton_maw_horror",
-    "name": "ASSIMILATION MAW",
+    "name": "Assimilaiton Maw",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -160,7 +160,7 @@
   },
   {
     "id": "npcf_phase_shift_generator_horror",
-    "name": "PHASE SHIFT GENERATOR",
+    "name": "Phase Shift Generator",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -181,7 +181,7 @@
   },
   {
     "id": "npcf_construction_tools_industrial_mech",
-    "name": "CONSTRUCTION TOOLS",
+    "name": "Construction Tools",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -193,7 +193,7 @@
   },
   {
     "id": "npcf_civilian_machine_industrial_mech",
-    "name": "CIVILIAN MACHINE",
+    "name": "Civilian Machine",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -205,7 +205,7 @@
   },
   {
     "id": "npcf_bulky_construction_industrial_mech",
-    "name": "BULKY CONSTRUCTION",
+    "name": "Bulky Construction",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -217,7 +217,7 @@
   },
   {
     "id": "npcf_rock_drill_industrial_mech",
-    "name": "ROCK DRILL",
+    "name": "Rock Drill",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -257,7 +257,7 @@
   },
   {
     "id": "npcf_fusion_cutter_industrial_mech",
-    "name": "FUSION CUTTER",
+    "name": "Fusion Cutter",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -308,7 +308,7 @@
   },
   {
     "id": "npcf_industrial_clamps_industrial_mech",
-    "name": "INDUSTRIAL CLAMPS",
+    "name": "Industrial Clamps",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -344,7 +344,7 @@
   },
   {
     "id": "npcf_rivet_cannon_industrial_mech",
-    "name": "RIVET CANNON",
+    "name": "Rivet Cannon",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -389,7 +389,7 @@
   },
   {
     "id": "npcf_buzzsaw_industrial_mech",
-    "name": "BUZZSAW",
+    "name": "Buzzsaw",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -429,7 +429,7 @@
   },
   {
     "id": "npcf_wrecker_industrial_mech",
-    "name": "WRECKER",
+    "name": "Wrecker",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -469,7 +469,7 @@
   },
   {
     "id": "npcf_operatives_spec_op",
-    "name": "OPERATIVES",
+    "name": "Operatives",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -481,7 +481,7 @@
   },
   {
     "id": "npcf_active_camo_spec_op",
-    "name": "ACTIVE CAMO",
+    "name": "Active Camo",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -550,7 +550,7 @@
   },
   {
     "id": "npcf_serrated_machete_spec_op",
-    "name": "SERRATED MACHETE",
+    "name": "Serrated Machete",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -615,7 +615,7 @@
   },
   {
     "id": "npcf_gyrojet_cannon_spec_op",
-    "name": "GYROJET CANNON",
+    "name": "Gyrojet Cannon",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -659,7 +659,7 @@
   },
   {
     "id": "npcf_burst_jets_spec_op",
-    "name": "JUMP PACKS",
+    "name": "Jump Packs",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -671,7 +671,7 @@
   },
   {
     "id": "npcf_null_perception_coating_spec_op",
-    "name": "NULL PERCEPTION COATING",
+    "name": "Null Perception Coating",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
