@@ -1,7 +1,7 @@
 [
   {
     "id": "npcf_abomination_horror",
-    "name": "Abomination",
+    "name": "Abominable",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -9,7 +9,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Scan doesn’t reveal any information about Horrors except that it is a Horror."
+    "effect": "Scan doesn’t reveal any information about the Horror except that they are a Horror."
   },
   {
     "id": "npcf_mutations_horror",
@@ -61,7 +61,7 @@
         "val": 3
       }
     ],
-    "on_hit": "Target loses all Overshield."
+    "on_hit": "The target loses all Overshield."
   },
   {
     "id": "npcf_quadruped_horror",
@@ -77,7 +77,7 @@
   },
   {
     "id": "npcf_superfluous_extremeties_horror",
-    "name": "Superfluous Extremeties",
+    "name": "Superfluous Extremities",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -125,7 +125,7 @@
   },
   {
     "id": "npcf_assimilaiton_maw_horror",
-    "name": "Assimilaiton Maw",
+    "name": "Assimilation Maw",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -160,7 +160,7 @@
   },
   {
     "id": "npcf_phase_shift_generator_horror",
-    "name": "Phase Shift Generator",
+    "name": "Phase-Shift Generator",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -253,7 +253,7 @@
         "val": 2
       }
     ],
-    "on_hit": "Target becomes Prone."
+    "on_hit": "The target is knocked Prone."
   },
   {
     "id": "npcf_fusion_cutter_industrial_mech",
@@ -526,7 +526,7 @@
   },
   {
     "id": "npcf_full_spectrum_sensor_suite_spec_op",
-    "name": "Full Spectrum Sensor Suite",
+    "name": "Full-Spectrum Sensor Suite",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -599,7 +599,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "This character's Ranged Attacks gain <b>On Crit:</b> Target is Knocked Prone. <br>Additionally, before making a Ranged Attack that deals Kinetic, Energy or Explosive Damage the Spec Op may swap that damage type for one of the other two."
+    "effect": "This character's Ranged Attacks gain “<b>On critical hit:</b> The target is knocked Prone.” <br>Additionally, before making a Ranged Attack that deals Kinetic, Energy, or Explosive Damage, the Spec Ops may swap that damage type for one of the other two."
   },
   {
     "id": "npcf_bulwark_mods_spec_op",
@@ -615,7 +615,7 @@
   },
   {
     "id": "npcf_gyrojet_cannon_spec_op",
-    "name": "Gyrojet Cannon",
+    "name": "Gyro-Jet Cannon",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -623,7 +623,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "If a target that was knocked back by this weapon collides with a Mech or Obstruction they are knocked Prone.",
+    "effect": "",
     "tags": [
       {
         "id": "tg_loading"
@@ -671,7 +671,7 @@
   },
   {
     "id": "npcf_null_perception_coating_spec_op",
-    "name": "Null Perception Coating",
+    "name": "Null-Perception Coating",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",

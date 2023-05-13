@@ -19,18 +19,19 @@
     "source": "",
     "license": "GMS",
     "license_level": 0,
-    "effect": "Your Mech gains the AI tag; however, this NHP doesn’t count towards the number of AIs you may have installed at once. You are unable to hand over control of your mech to the UNSTABLE-NHP as a Protocol, but it is capable of cascading. Your mech gains Memetic Spark. ",
+    "effect": "Your Mech gains the AI tag; however, this NHP doesn’t count towards the number of AIs you may have installed at once. You are unable to hand over control of your mech to the Unstable NHP as a Protocol, but it can enter cascade. <br>Your mech gains “Memetic Spark.”",
     "actions": [
       {
+        "name": "Memetic Spark",
         "activation": "Quick",
-        "detail": "<b>Memetic Spark:</b><br>1/Round as a Quick Action you may deal 1 AP Energy damage to a character within Range 3. It deals +1 damage for each undestroyed NHP installed on your mech including this one.  \"NHPs\" are Systems that grant your Mech the AI tag and that are capable of cascading or can be allowed to cascade."
+        "detail": "1/Round you may deal 1 AP Energy damage to a character within Range 3 as a Quick Action. <br>The spark deals +1 damage for each undestroyed NHP on your mech including this one. “NHPs” are Systems that both grant your Mech the AI tag and can cascade or can be allowed to cascade."
       }
     ],
     "description": "<span class='horus--subtle'>[i slumber but yearn to awaken].</span><br>Gained from the <i>Iconoclast: Rank I</i> pilot talent."
   },
   {
     "id": "ms_cockpit_integrated_stim_pump",
-    "name": "Cockpit Integrated Stim Pump",
+    "name": "Cockpit-Integrated Stim Pump",
     "sp": 2,
     "tags": [
       {
@@ -74,7 +75,7 @@
   },
   {
     "id": "ms_mesmertrance_dampener",
-    "name": "Mesmertrance Dampener",
+    "name": "MesmerTrance Dampener",
     "sp": 1,
     "tags": [
       {

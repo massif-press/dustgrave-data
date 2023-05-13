@@ -38,6 +38,9 @@
     "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.",
     "tags": [
       {
+        "id": "tg_arcing"
+      },
+      {
         "id": "tg_loading"
       },
       {
@@ -163,14 +166,14 @@
   },
   {
     "id": "ms_madrigal_disruptor_grenades",
-    "name": "Madrigal Disruptor Grenades",
+    "name": "Madrigal Disruptor Grenade",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.",
+    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot, you gain the Disruptor Grenade quick action.",
     "actions": [
       {
         "name": "Disruptor Grenade",
         "activation": "Quick",
-        "detail": "Range 5, Blast 1. Affected characters become Slowed and Impaired until the end of their next turn.",
+        "detail": "Expend a charge to throw a disruptor grenade within Range 5. Characters within Blast 1 become Slowed and Impaired until the end of their next turn.",
         "pilot": true
       }
     ],
@@ -191,7 +194,7 @@
     "id": "ms_madrigal_jump_system",
     "name": "Madrigal Jump System",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>You may Fly when you Boost. You must end this movement on solid ground or begin falling.",
+    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot you may Fly when you Boost. You must end this movement on solid ground or begin falling.",
     "tags": [
       {
         "id": "tg_unique"
@@ -205,7 +208,7 @@
     "id": "ms_madrigal_thermal_visor",
     "name": "Madrigal Thermal Visor",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>Your attacks ignore Cover.",
+    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot your attacks ignore Cover.",
     "tags": [
       {
         "id": "tg_unique"
@@ -219,7 +222,7 @@
     "id": "ms_madrigal_active_camo",
     "name": "Madrigal Active Camo",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>Ranged attacks originating from beyond Range 3 treat you as having Hard Cover.",
+    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot, ranged attacks originating from beyond Range 3 treat you as having Hard Cover.",
     "tags": [
       {
         "id": "tg_unique"
@@ -233,7 +236,17 @@
     "id": "ms_madrigal_personal_shield",
     "name": "Madrigal Personal Shield",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>As a Reaction to taking damage you may spend a charge to gain Resistance to that damage.",
+    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot, you gain the Shielded reaction.",
+    "actions": [
+      {
+        "name": "Shielded",
+        "activation": "Reaction",
+        "frequency": "1/round",
+        "trigger": "You take damage.",
+        "detail": "You may expend a charge to gain Resistance to that damage.",
+        "pilot": true
+      }
+    ],
     "tags": [
       {
         "id": "tg_unique"
@@ -251,12 +264,12 @@
     "id": "ms_madrigal_shock_field",
     "name": "Madrigal Shock Field",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.",
+    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot, you gain the Shock Field quick action.",
     "actions": [
       {
         "name": "Shock Field",
         "activation": "Quick",
-        "detail": "You may deal 3 Energy damage to all characters adjacent to you and end all grapples affecting you.",
+        "detail": "You may deal 3 Energy damage to all characters adjacent to you and end all Grapples affecting you.",
         "pilot": true
       }
     ],

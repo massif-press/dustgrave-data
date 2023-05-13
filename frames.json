@@ -109,7 +109,7 @@
     },
     "traits": [
       {
-        "name": "Near-Threat Targeting Processors",
+        "name": "Near-Threat Targeting Processor",
         "description": "The Viceroy treats its LAUNCHER weapons as though they are also CQB weapons with THREAT 3.",
         "synergies": [
           {
@@ -121,18 +121,18 @@
         ]
       },
       {
-        "name": "\"Vigilante\" Omni Directional Launchers",
+        "name": "Vigilante Omnidirectional Launchers",
         "description": "1/Round, on a critical hit against a character, the Viceroy may deal 2 Explosive damage to all characters of its choice within Range 3 of itself, and knock them back 1 space."
       },
       {
         "name": "Pressure Plating",
-        "description": "The Viceroy has resistance to Explosive Damage."
+        "description": "The Viceroy has Resistance to Explosive Damage."
       }
     ],
     "core_system": {
-      "name": "SSC - 41 - TENGU Assisted Missile Tubes",
+      "name": "SSC-41 Tengu-Assisted Missile Tubes",
       "description": "By redlining its integrated Vigilante launchers, the Viceroy can deliver a devastating saturation bombardment of its close surroundings. Weathering the onslaught thanks to its blast-resistant exterior, the Viceroy can utilize this salvo, when coupled with the miniaturized Tengu one-burst jump system, for a variety of advanced battlefield tactics. This allows it to either deliver a near-unstoppable alpha strike or make a dramatic exit. “Heaven’s downpour” is a technique that strikes fear in any that face a Viceroy pilot in combat.",
-      "active_name": "Heaven's Downpour",
+      "active_name": "Heaven’s Downpour",
       "active_effect": "Center a Burst 3 missile swarm on yourself, hostile characters in the area must perform a Hull save or take 1d6+3 Explosive damage and be knocked Prone. On a successful save they take half damage and remain standing. You may consume an affected character's Lock On, if you do, they automatically fail the save. <br>Before or after performing this action you may fly up to your speed, ignoring Reactions and Engagement. You must end this movement on solid ground or begin falling.",
       "use": "Encounter",
       "activation": "Quick"

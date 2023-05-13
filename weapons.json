@@ -69,8 +69,14 @@
     ],
     "source": "EXOTIC",
     "license_level": 0,
-    "effect": "You may bring down this Shield as a Protocol to gain 4+Grit Overshield until the start of your next turn at which point you lose all Overshield. You are Slowed while you have this Overshield. You may not use this Protocol two turns in a row.",
+    "actions": [
+      {
+        "activation": "Protocol",
+        "detail": "You may bring down this Shield to gain 4+Grit Overshield until the start of your next turn, at which point you lose all Overshield. You are Slowed while you have this Overshield. <br>You may not use this Protocol two turns in a row."
+      }
+    ],
     "description": "The signature weapon of the former perpetual champion of Crater Pit. Since Brutus’s defeat in glorious combat, someone else now wields this relatively advanced slab shield. Incorporating surprisingly complex Harrison Armory technology, this shield can project a localized force field of significant strength.",
+    "sp": 1,
     "license_id": ""
   },
   {
@@ -111,6 +117,9 @@
         ],
         "tags": [
           {
+            "id": "tg_loading"
+          },
+          {
             "id": "tg_knockback",
             "val": 2
           }
@@ -120,9 +129,6 @@
     "tags": [
       {
         "id": "tg_unique"
-      },
-      {
-        "id": "tg_loading"
       },
       {
         "id": "tg_exotic"
@@ -141,7 +147,7 @@
     "type": "Melee",
     "damage": [
       {
-        "type": "Kinetic",
+        "type": "Energy",
         "val": "1d6+1"
       }
     ],
@@ -257,7 +263,7 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "description": "The latest innovations of GMS’ Type-II line of energy weapons have produced a Charged Blade of staggering proportions. It is currently carried in the “Storm” line of superheavy equipment.",
+    "description": "The latest innovations of GMS’s Type-II line of powered and energy weapons have produced a charged blade of staggering proportions. It is currently carried in the “Storm” line of superheavy equipment.",
     "license_id": ""
   },
   {
@@ -299,7 +305,7 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "description": "This oversized chassis mounted artillery platform is capable of unleashing a devastating barrage. Short ranged for a weapon of its kind it is nevertheless capable of saturating a targeted area in a harrowing hail of intelligent self-correcting cluster munitions. It is currently carried in the “Storm” line of superheavy equipment.",
+    "description": "This oversized, chassis-mounted artillery platform is capable of unleashing a devastating barrage. With a short maximum range for a weapon of its kind, it is nevertheless capable of saturating a targeted area in a harrowing hail of intelligent self-correcting cluster munitions. It is currently carried in the “Storm” line of superheavy equipment.",
     "license_id": ""
   }
 ]
