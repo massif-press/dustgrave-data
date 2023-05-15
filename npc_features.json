@@ -213,7 +213,10 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Industrial gains +1 Armor but Boost becomes a full action instead of a quick action."
+    "effect": "The Industrial gains +1 Armor but Boost becomes a full action instead of a quick action.",
+    "bonus": {
+      "armor": 1
+    }
   },
   {
     "id": "npcf_rock_drill_industrial_mech",
