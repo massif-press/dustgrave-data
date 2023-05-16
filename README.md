@@ -1,19 +1,19 @@
-# Player-facing Wallflower: Part I Data for Comp/Con
+# Player-facing Dustgrave Data for Comp/Con
 
 ## Installation
 
 ```js
-npm add @massif/wallflower-data
+npm add @massif/dustgrave-data
 //or
-yarn add @massif/wallflower-data
+yarn add @massif/dustgrave-data
 ```
 
 ## Usage
 
 ```js
-import * as wallflower from '@massif/wallflower-data';
+import * as dustgrave from '@massif/dustgrave-data';
 
-const wallflowerFrameData = wallflower.frames;
+const dustgraveFrameData = dustgrave.frames;
 ```
 
 ## Building LCP
