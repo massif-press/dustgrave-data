@@ -1,7 +1,7 @@
 [
   {
     "id": "npct_horror",
-    "name": "HORROR",
+    "name": "Horror",
     "description": "Artificial horrors beyond human comprehension. From biosynth-hybrid mechs and nanite-swarm gestalt-schools to phase-shifted tachyon phantoms. A horror may come in many forms, but those that are forced to face one in combat will always recognize it for what it is.",
     "base_features": [
       "npcf_mutations_horror"
@@ -21,7 +21,7 @@
   },
   {
     "id": "npct_industrial_mech",
-    "name": "INDUSTRIAL MECH",
+    "name": "Industrial Mech",
     "description": "Civilian machines built for mining and construction are much more numerous in the galaxy than those purpose-built for combat. Despite their obvious shortcomings, those with little alternatives will often pilot these chassis into battle, turning tools meant to create into tools used to destroy.",
     "base_features": [
       "npcf_construction_tools_industrial_mech",
@@ -40,7 +40,7 @@
   },
   {
     "id": "npct_commando_spec_op",
-    "name": "SPEC OP",
+    "name": "Spec Op",
     "description": "Expertly trained and equipped individuals that often deploy in teams to increase their deadly potential even further. Those that end up on the wrong side of such a strike team should exercise extreme caution.",
     "base_features": [
       "npcf_operatives_spec_op",

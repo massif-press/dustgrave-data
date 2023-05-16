@@ -41,7 +41,9 @@
       {
         "name": "Transgression",
         "description": "You may choose to equip your mech with an Unstable NHP system.",
-        "special_equipment": ["ms_iconoclast"]
+        "special_equipment": [
+          "ms_iconoclast"
+        ]
       },
       {
         "name": "Transmutation",
