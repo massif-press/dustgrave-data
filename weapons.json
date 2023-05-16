@@ -1,7 +1,7 @@
 [
   {
     "id": "mw_brutus_wrecker",
-    "name": "BRUTUS'S WRECKER",
+    "name": "Brutus’s Wrecker",
     "mount": "Heavy",
     "type": "Melee",
     "damage": [
@@ -44,7 +44,7 @@
   },
   {
     "id": "mw_brutus_shield",
-    "name": "BRUTUS'S SHIELD",
+    "name": "Brutus’s Shield",
     "mount": "Main",
     "type": "Melee",
     "damage": [
@@ -69,13 +69,19 @@
     ],
     "source": "EXOTIC",
     "license_level": 0,
-    "effect": "You may bring down this Shield as a Protocol to gain 4+Grit Overshield until the start of your next turn at which point you lose all Overshield. You are Slowed while you have this Overshield. You may not use this Protocol two turns in a row.",
+    "actions": [
+      {
+        "activation": "Protocol",
+        "detail": "As a protocol, you may raise this Shield to gain 4+Grit Overshield until the start of your next turn, at which point you lose all Overshield. You are Slowed while you have this Overshield. <br>You may not use this Protocol two turns in a row."
+      }
+    ],
     "description": "The signature weapon of the former perpetual champion of Crater Pit. Since Brutus’s defeat in glorious combat, someone else now wields this relatively advanced slab shield. Incorporating surprisingly complex Harrison Armory technology, this shield can project a localized force field of significant strength.",
+    "sp": 1,
     "license_id": ""
   },
   {
     "id": "mw_blast_pick",
-    "name": "BLAST PICK",
+    "name": "Blast Pick",
     "mount": "Heavy",
     "type": "Melee",
     "profiles": [
@@ -111,6 +117,9 @@
         ],
         "tags": [
           {
+            "id": "tg_loading"
+          },
+          {
             "id": "tg_knockback",
             "val": 2
           }
@@ -122,26 +131,23 @@
         "id": "tg_unique"
       },
       {
-        "id": "tg_loading"
-      },
-      {
         "id": "tg_exotic"
       }
     ],
     "source": "EXOTIC",
     "license_level": 0,
-    "effect": "Before making an attack, you may declare that you unload this weapon. If you do, the attack’s damage profile becomes 2d6+6 Explosive and it gains Knockback 2. Otherwise this weapon does not unload.",
+    "effect": "Before making an attack, you may declare that you unload this weapon. If you do, the attack deals 2d6+6 Explosive damage and it gains Knockback 2. Otherwise, this weapon does not unload.",
     "description": "Originally used in IPS-N mining operations, this particular pick eventually found its way to the Garfields in Port Conroy, a popular fusion pasta restaurant. Used as a prominent piece of decoration in the restaurant, this aged mining implement yet packs some serious punch. The blast picks operates via an integrated explosive charge which can be triggered manually to enhance the force of the swing and resulting impact exponentially.",
     "license_id": ""
   },
   {
     "id": "mw_shock_baton",
-    "name": "SHOCK BATON",
+    "name": "Shock Baton",
     "mount": "Main",
     "type": "Melee",
     "damage": [
       {
-        "type": "Kinetic",
+        "type": "Energy",
         "val": "1d6+1"
       }
     ],
@@ -162,19 +168,19 @@
     "source": "EXOTIC",
     "license_level": 0,
     "effect": "",
-    "on_crit": "Target must perform a Systems save or become Jammed until the end of its next turn. On a success they become Impaired for the same duration. Each character can only be affected by this effect 1/Scene.",
+    "on_crit": "Your target must succeed on a Systems save or become Jammed until the end of their next turn. On a success, they become Impaired for the same duration. Each character can only be affected this way 1/Scene.",
     "description": "The shock baton is a relatively recent development in the field of mech-to-mech “less-lethal” weaponry. A popular choice for law enforcement seeking to disable frames instead of destroying them, allowing their pilots to be taken alive.",
     "sp": 1,
     "license_id": ""
   },
   {
     "id": "mw_reaper_assault_cannon",
-    "name": "REAPER ASSAULT CANNON",
+    "name": "Reaper Assault Cannon",
     "mount": "Main",
     "type": "Cannon",
     "profiles": [
       {
-        "name": "10 Barrels of Hell",
+        "name": "Standard",
         "range": [
           {
             "type": "Range",
@@ -190,7 +196,7 @@
         "tags": []
       },
       {
-        "name": "20 Barrels of Hell",
+        "name": "Superheavy",
         "range": [
           {
             "type": "Range",
@@ -224,7 +230,7 @@
     ],
     "source": "EXOTIC",
     "license_level": 0,
-    "effect": "You may fire this weapon as if it were a Superheavy weapon. If you do, it gains Reliable 5 and its damage profile becomes 4d3+2 Kinetic instead.",
+    "effect": "You may fire this weapon as if it were a Superheavy weapon. If you do, it gains Reliable 5 and it deals 4d3+2 Kinetic damage instead of its standard damage.",
     "description": "IPS-N’s latest foray into the field of autocannons, the Reaper represents the middle ground between a regular assault cannon and the ubiquitous Leviathan. Capable of laying down a harrowing hail of bullets, the Reaper lacks the typical assault cannon “spin up” feature, relying instead on yet more barrels and two rotary assemblies to achieve a superior rate of fire. Handed out to select IPS-N-licensed printers, this latest model is still in the test stages.",
     "license_id": ""
   },
@@ -257,7 +263,7 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "description": "The latest innovations of GMS’ Type-II line of energy weapons have produced a Charged Blade of staggering proportions. It is currently carried in the “Storm” line of superheavy equipment.",
+    "description": "The latest innovations of GMS’s Type-II line of powered and energy weapons have produced a charged blade of staggering proportions. It is currently carried in the “Storm” line of superheavy equipment.",
     "license_id": ""
   },
   {
@@ -299,7 +305,7 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "description": "This oversized chassis mounted artillery platform is capable of unleashing a devastating barrage. Short ranged for a weapon of its kind it is nevertheless capable of saturating a targeted area in a harrowing hail of intelligent self-correcting cluster munitions. It is currently carried in the “Storm” line of superheavy equipment.",
+    "description": "This oversized, chassis-mounted artillery platform is capable of unleashing a devastating barrage. With a short maximum range for a weapon of its kind, it is nevertheless capable of saturating a targeted area in a harrowing hail of intelligent self-correcting cluster munitions. It is currently carried in the “Storm” line of superheavy equipment.",
     "license_id": ""
   }
 ]

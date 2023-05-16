@@ -1,7 +1,7 @@
 [
   {
     "id": "npcf_abomination_horror",
-    "name": "ABOMINATION",
+    "name": "Abominable",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -9,11 +9,11 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Scan doesn’t reveal any information about Horrors except that it is a Horror."
+    "effect": "Scan doesn’t reveal any information about the Horror except that they are a Horror."
   },
   {
     "id": "npcf_mutations_horror",
-    "name": "MUTATIONS",
+    "name": "Mutations",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -25,7 +25,7 @@
   },
   {
     "id": "npcf_disruptor_whip_horror",
-    "name": "DISRUPTOR WHIP",
+    "name": "Disruptor Whip",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -61,11 +61,11 @@
         "val": 3
       }
     ],
-    "on_hit": "Target loses all Overshield."
+    "on_hit": "The target loses all Overshield."
   },
   {
     "id": "npcf_quadruped_horror",
-    "name": "QUADRUPED",
+    "name": "Quadruped",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -77,7 +77,7 @@
   },
   {
     "id": "npcf_superfluous_extremeties_horror",
-    "name": "SUPERFLUOUS EXTREMETIES",
+    "name": "Superfluous Extremities",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -89,7 +89,7 @@
   },
   {
     "id": "npcf_artificial_horror",
-    "name": "ARTIFICIAL",
+    "name": "Artificial",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -101,7 +101,7 @@
   },
   {
     "id": "npcf_terrifying_horror",
-    "name": "TERRIFYING",
+    "name": "Terrifying",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -113,7 +113,7 @@
   },
   {
     "id": "npcf_abhorrent_redundancies_horror",
-    "name": "ABHORRENT REDUNDANCIES",
+    "name": "Abhorrent Redundancies",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -125,7 +125,7 @@
   },
   {
     "id": "npcf_assimilaiton_maw_horror",
-    "name": "ASSIMILATION MAW",
+    "name": "Assimilation Maw",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -133,7 +133,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "",
+    "effect": "Additionally, if the Horror destroys another character with this weapon, allied or hostile, or hits a wreck, they regain {10/15/20} HP. Wrecks and allies are automatically hit by this weapon. Wrecks hit by this weapon are automatically destroyed.",
     "weapon_type": "Superheavy Melee",
     "attack_bonus": [
       1,
@@ -156,11 +156,11 @@
         "val": 1
       }
     ],
-    "on_hit": "If the target is at half or less HP after this attack is resolved, they must succeed on a Hull save or be reduced to 0 HP. Additionally, if the Horror destroys another character with this weapon, allied or hostile, or hits a wreck, they regain {10/15/20} HP. Wrecks and allies are automatically hit by this weapon. Wrecks hit by this weapon are automatically destroyed."
+    "on_hit": "If the target is at half or less HP after this attack is resolved, they must succeed on a Hull save or be reduced to 0 HP."
   },
   {
     "id": "npcf_phase_shift_generator_horror",
-    "name": "PHASE SHIFT GENERATOR",
+    "name": "Phase-Shift Generator",
     "origin": {
       "type": "Template",
       "name": "HORROR",
@@ -181,7 +181,7 @@
   },
   {
     "id": "npcf_construction_tools_industrial_mech",
-    "name": "CONSTRUCTION TOOLS",
+    "name": "Construction Tools",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -193,7 +193,7 @@
   },
   {
     "id": "npcf_civilian_machine_industrial_mech",
-    "name": "CIVILIAN MACHINE",
+    "name": "Civilian Machine",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -205,7 +205,7 @@
   },
   {
     "id": "npcf_bulky_construction_industrial_mech",
-    "name": "BULKY CONSTRUCTION",
+    "name": "Bulky Construction",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -213,11 +213,14 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Industrial gains +1 Armor but Boost becomes a full action instead of a quick action."
+    "effect": "The Industrial gains +1 Armor but Boost becomes a full action instead of a quick action.",
+    "bonus": {
+      "armor": 1
+    }
   },
   {
     "id": "npcf_rock_drill_industrial_mech",
-    "name": "ROCK DRILL",
+    "name": "Rock Drill",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -233,9 +236,9 @@
     ],
     "weapon_type": "Superheavy Melee",
     "attack_bonus": [
+      1,
       2,
-      4,
-      6
+      3
     ],
     "damage": [
       {
@@ -253,11 +256,11 @@
         "val": 2
       }
     ],
-    "on_hit": "Target becomes Prone."
+    "on_hit": "The target is knocked Prone."
   },
   {
     "id": "npcf_fusion_cutter_industrial_mech",
-    "name": "FUSION CUTTER",
+    "name": "Fusion Cutter",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -308,7 +311,7 @@
   },
   {
     "id": "npcf_industrial_clamps_industrial_mech",
-    "name": "INDUSTRIAL CLAMPS",
+    "name": "Industrial Clamps",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -344,7 +347,7 @@
   },
   {
     "id": "npcf_rivet_cannon_industrial_mech",
-    "name": "RIVET CANNON",
+    "name": "Rivet Cannon",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -355,9 +358,9 @@
     "effect": "This Attack can make {1/2/3} attacks. If one of these attacks knocks a character back into a piece of terrain that stops their movement, they become Immobilized until the end of their next turn.",
     "weapon_type": "Main Cannon",
     "attack_bonus": [
+      1,
       2,
-      4,
-      6
+      3
     ],
     "tags": [
       {
@@ -389,7 +392,7 @@
   },
   {
     "id": "npcf_buzzsaw_industrial_mech",
-    "name": "BUZZSAW",
+    "name": "Buzzsaw",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -397,7 +400,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "On critical hit: This weapon's base damage is doubled.",
+    "effect": "On critical hit: This weapon’s base damage is doubled.",
     "weapon_type": "Main Melee",
     "attack_bonus": [
       2,
@@ -429,7 +432,7 @@
   },
   {
     "id": "npcf_wrecker_industrial_mech",
-    "name": "WRECKER",
+    "name": "Wrecker",
     "origin": {
       "type": "Template",
       "name": "INDUSTRIAL MECH",
@@ -469,7 +472,7 @@
   },
   {
     "id": "npcf_operatives_spec_op",
-    "name": "OPERATIVES",
+    "name": "Operatives",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -481,7 +484,7 @@
   },
   {
     "id": "npcf_active_camo_spec_op",
-    "name": "ACTIVE CAMO",
+    "name": "Active Camo",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -526,7 +529,7 @@
   },
   {
     "id": "npcf_full_spectrum_sensor_suite_spec_op",
-    "name": "Full Spectrum Sensor Suite",
+    "name": "Full-Spectrum Sensor Suite",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -550,7 +553,7 @@
   },
   {
     "id": "npcf_serrated_machete_spec_op",
-    "name": "SERRATED MACHETE",
+    "name": "Serrated Machete",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -599,7 +602,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "This character's Ranged Attacks gain <b>On Crit:</b> Target is Knocked Prone. <br>Additionally, before making a Ranged Attack that deals Kinetic, Energy or Explosive Damage the Spec Op may swap that damage type for one of the other two."
+    "effect": "This character’s Ranged Attacks gain “<b>On critical hit:</b> The target is knocked Prone.” <br>Additionally, before making a Ranged Attack that deals Kinetic, Energy, or Explosive Damage, the Spec Ops may swap that damage type for one of the other two."
   },
   {
     "id": "npcf_bulwark_mods_spec_op",
@@ -615,7 +618,7 @@
   },
   {
     "id": "npcf_gyrojet_cannon_spec_op",
-    "name": "GYROJET CANNON",
+    "name": "Gyro-Jet Cannon",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -623,7 +626,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "If a target that was knocked back by this weapon collides with a Mech or Obstruction they are knocked Prone.",
+    "effect": "",
     "tags": [
       {
         "id": "tg_loading"
@@ -659,7 +662,7 @@
   },
   {
     "id": "npcf_burst_jets_spec_op",
-    "name": "JUMP PACKS",
+    "name": "Jump Packs",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
@@ -671,7 +674,7 @@
   },
   {
     "id": "npcf_null_perception_coating_spec_op",
-    "name": "NULL PERCEPTION COATING",
+    "name": "Null-Perception Coating",
     "origin": {
       "type": "Template",
       "name": "SPEC OP",
