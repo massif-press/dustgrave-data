@@ -79,7 +79,7 @@
       ],
       "use": "Encounter"
     },
-    "image_url": "https://i.imgur.com/ZZlmGNF.png"
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/Stortebeker.png"
   },
   {
     "id": "mf_micro_monarch",
@@ -137,6 +137,6 @@
       "use": "Encounter",
       "activation": "Quick"
     },
-    "image_url": "https://i.imgur.com/KL2a8ZF.png"
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/Viceroy.png"
   }
 ]
