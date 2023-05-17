@@ -4,7 +4,7 @@
     "name": "Abominable",
     "origin": {
       "type": "Template",
-      "name": "HORROR",
+      "name": "Horror",
       "base": false
     },
     "locked": false,
@@ -16,7 +16,7 @@
     "name": "Mutations",
     "origin": {
       "type": "Template",
-      "name": "HORROR",
+      "name": "Horror",
       "base": true
     },
     "locked": false,
@@ -28,7 +28,7 @@
     "name": "Disruptor Whip",
     "origin": {
       "type": "Template",
-      "name": "HORROR",
+      "name": "Horror",
       "base": false
     },
     "locked": false,
@@ -68,7 +68,7 @@
     "name": "Quadruped",
     "origin": {
       "type": "Template",
-      "name": "HORROR",
+      "name": "Horror",
       "base": false
     },
     "locked": false,
@@ -80,7 +80,7 @@
     "name": "Superfluous Extremities",
     "origin": {
       "type": "Template",
-      "name": "HORROR",
+      "name": "Horror",
       "base": false
     },
     "locked": false,
@@ -92,7 +92,7 @@
     "name": "Artificial",
     "origin": {
       "type": "Template",
-      "name": "HORROR",
+      "name": "Horror",
       "base": false
     },
     "locked": false,
@@ -104,7 +104,7 @@
     "name": "Terrifying",
     "origin": {
       "type": "Template",
-      "name": "HORROR",
+      "name": "Horror",
       "base": false
     },
     "locked": false,
@@ -116,7 +116,7 @@
     "name": "Abhorrent Redundancies",
     "origin": {
       "type": "Template",
-      "name": "HORROR",
+      "name": "Horror",
       "base": false
     },
     "locked": false,
@@ -128,7 +128,7 @@
     "name": "Assimilation Maw",
     "origin": {
       "type": "Template",
-      "name": "HORROR",
+      "name": "Horror",
       "base": false
     },
     "locked": false,
@@ -163,7 +163,7 @@
     "name": "Phase-Shift Generator",
     "origin": {
       "type": "Template",
-      "name": "HORROR",
+      "name": "Horror",
       "base": false
     },
     "locked": false,
@@ -184,7 +184,7 @@
     "name": "Construction Tools",
     "origin": {
       "type": "Template",
-      "name": "INDUSTRIAL MECH",
+      "name": "Industrial",
       "base": true
     },
     "locked": false,
@@ -196,7 +196,7 @@
     "name": "Civilian Machine",
     "origin": {
       "type": "Template",
-      "name": "INDUSTRIAL MECH",
+      "name": "Industrial",
       "base": true
     },
     "locked": false,
@@ -208,7 +208,7 @@
     "name": "Bulky Construction",
     "origin": {
       "type": "Template",
-      "name": "INDUSTRIAL MECH",
+      "name": "Industrial",
       "base": true
     },
     "locked": false,
@@ -223,7 +223,7 @@
     "name": "Rock Drill",
     "origin": {
       "type": "Template",
-      "name": "INDUSTRIAL MECH",
+      "name": "Industrial",
       "base": false
     },
     "locked": false,
@@ -263,7 +263,7 @@
     "name": "Fusion Cutter",
     "origin": {
       "type": "Template",
-      "name": "INDUSTRIAL MECH",
+      "name": "Industrial",
       "base": false
     },
     "locked": false,
@@ -314,7 +314,7 @@
     "name": "Industrial Clamps",
     "origin": {
       "type": "Template",
-      "name": "INDUSTRIAL MECH",
+      "name": "Industrial",
       "base": false
     },
     "locked": false,
@@ -350,7 +350,7 @@
     "name": "Rivet Cannon",
     "origin": {
       "type": "Template",
-      "name": "INDUSTRIAL MECH",
+      "name": "Industrial",
       "base": false
     },
     "locked": false,
@@ -395,7 +395,7 @@
     "name": "Buzzsaw",
     "origin": {
       "type": "Template",
-      "name": "INDUSTRIAL MECH",
+      "name": "Industrial",
       "base": false
     },
     "locked": false,
@@ -435,7 +435,7 @@
     "name": "Wrecker",
     "origin": {
       "type": "Template",
-      "name": "INDUSTRIAL MECH",
+      "name": "Industrial",
       "base": false
     },
     "locked": false,
@@ -475,7 +475,7 @@
     "name": "Operatives",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": true
     },
     "locked": false,
@@ -487,7 +487,7 @@
     "name": "Active Camo",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": true
     },
     "locked": false,
@@ -508,7 +508,7 @@
     "name": "Deadly Precision",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": true
     },
     "locked": false,
@@ -520,7 +520,7 @@
     "name": "Coordinated Carnage",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": true
     },
     "locked": false,
@@ -532,7 +532,7 @@
     "name": "Full-Spectrum Sensor Suite",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": false
     },
     "locked": false,
@@ -544,7 +544,7 @@
     "name": "Automated Battlefield Awareness Node",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": false
     },
     "locked": false,
@@ -556,7 +556,7 @@
     "name": "Serrated Machete",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": false
     },
     "locked": false,
@@ -597,7 +597,7 @@
     "name": "Special Munitions",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": false
     },
     "locked": false,
@@ -609,7 +609,7 @@
     "name": "Bulwark Mods",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": false
     },
     "locked": false,
@@ -621,7 +621,7 @@
     "name": "Gyro-Jet Cannon",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": false
     },
     "locked": false,
@@ -665,7 +665,7 @@
     "name": "Jump Packs",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": false
     },
     "locked": false,
@@ -677,7 +677,7 @@
     "name": "Null-Perception Coating",
     "origin": {
       "type": "Template",
-      "name": "SPEC OP",
+      "name": "Spec Op",
       "base": false
     },
     "locked": false,
