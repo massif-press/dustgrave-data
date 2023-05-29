@@ -212,8 +212,8 @@
       {
         "name": "Automated Reflex Suite",
         "activation": "Reaction",
-        "trigger": "When you are hit by an attack.",
-        "detail": "You may make the attack a miss as a reaction."
+        "trigger": "You are hit by an attack.",
+        "detail": "The attack automatically misses."
       }
     ]
   },
