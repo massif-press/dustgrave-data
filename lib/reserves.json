@@ -37,7 +37,7 @@
   {
     "id": "reserve_junker_exo_rig",
     "name": "Junker Exo-Rig",
-    "type": "Mech",
+    "type": "Tactical",
     "label": "Resource",
     "description": "You gain +1 ACCURACY to JOCKEY."
   },
