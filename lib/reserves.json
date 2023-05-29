@@ -58,7 +58,8 @@
       {
         "name": "Personal Cloak",
         "activation": "Protocol",
-        "detail": "Become INVISIBLE until the start of your next turn."
+        "detail": "Become INVISIBLE until the start of your next turn.",
+        "frequency": "1/mission"
       }
     ]
   },
@@ -79,7 +80,8 @@
       {
         "name": "Frostfang Servos",
         "activation": "Free",
-        "detail": "BOOST as a free action."
+        "detail": "BOOST as a free action.",
+        "frequency": "1/mission"
       }
     ]
   },
@@ -93,7 +95,8 @@
       {
         "name": "Gyro Stabilizers",
         "activation": "Protocol",
-        "detail": "Treat all of your weapons as if they aren’t ORDNANCE for the rest of the turn."
+        "detail": "Treat all of your weapons as if they aren’t ORDNANCE for the rest of the turn.",
+        "frequency": "1/mission"
       }
     ]
   },
@@ -107,7 +110,8 @@
       {
         "name": "High-Speed Loader",
         "activation": "Free",
-        "detail": "Reload all weapons as a free action."
+        "detail": "Reload all weapons as a free action.",
+        "frequency": "1/mission"
       }
     ]
   },
@@ -128,7 +132,8 @@
       {
         "name": "Emergency Coolant Reservoir",
         "activation": "Free",
-        "detail": "Clear EXPOSED as a free action."
+        "detail": "Clear EXPOSED as a free action.",
+        "frequency": "1/mission"
       }
     ]
   },
@@ -142,7 +147,8 @@
       {
         "name": "IC Blinkpack",
         "activation": "Protocol",
-        "detail": "As a protocol, you may teleport whenever you move for the rest of your turn."
+        "detail": "As a protocol, you may teleport whenever you move for the rest of your turn.",
+        "frequency": "1/mission"
       }
     ]
   },
@@ -184,7 +190,8 @@
       {
         "name": "“Field Marshal” Comp/Con",
         "activation": "Quick",
-        "detail": "As a quick action, up to two allied characters within SENSORS may each immediately perform a single quick action as a reaction."
+        "detail": "As a quick action, up to two allied characters within SENSORS may each immediately perform a single quick action as a reaction.",
+        "frequency": "1/mission"
       }
     ]
   },
@@ -198,7 +205,8 @@
       {
         "name": "Retractable Slab Shields",
         "activation": "Protocol",
-        "detail": "As a protocol, you become IMMOBILIZED until the start of your next turn and gain RESISTANCE to all damage for the same duration."
+        "detail": "As a protocol, you become IMMOBILIZED until the start of your next turn and gain RESISTANCE to all damage for the same duration.",
+        "frequency": "1/mission"
       }
     ]
   },
@@ -213,7 +221,8 @@
         "name": "Automated Reflex Suite",
         "activation": "Reaction",
         "trigger": "You are hit by an attack.",
-        "detail": "The attack automatically misses."
+        "detail": "The attack automatically misses.",
+        "frequency": "1/mission"
       }
     ]
   },
@@ -227,7 +236,8 @@
       {
         "name": "“Bubble” Active Personal Shield",
         "activation": "Protocol",
-        "detail": "As a protocol, gain 4+GRIT OVERSHIELD."
+        "detail": "As a protocol, gain 4+GRIT OVERSHIELD.",
+        "frequency": "1/mission"
       }
     ]
   },
@@ -241,7 +251,8 @@
       {
         "name": "Thermal Optics",
         "activation": "Protocol",
-        "detail": "As a protocol, you may activate this to ignore cover until the end of your turn."
+        "detail": "As a protocol, you may activate this to ignore cover until the end of your turn.",
+        "frequency": "1/mission"
       }
     ]
   },
@@ -262,7 +273,8 @@
       {
         "name": "Hyper-Spec Fuel Canister",
         "activation": "Protocol",
-        "detail": "As a protocol, you may activate this to gain +1 ACCURACY on all attacks, saves, and checks until the start of your next turn."
+        "detail": "As a protocol, you may activate this to gain +1 ACCURACY on all attacks, saves, and checks until the start of your next turn.",
+        "frequency": "1/mission"
       }
     ]
   }
