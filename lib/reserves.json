@@ -1,0 +1,281 @@
+[
+  {
+    "id": "reserve_military_grade_jetpack",
+    "name": "Military-Grade Jetpack",
+    "type": "Tactical",
+    "label": "Resource",
+    "description": "Can be attached to any hardsuit, allowing the wearer to fly when they move or BOOST."
+  },
+  {
+    "id": "reserve_incendiary_ammo_pilot_scale",
+    "name": "Incendiary Ammo (Pilot-Scale)",
+    "type": "Tactical",
+    "label": "Resource",
+    "description": "Changes a pilot-scale weapon’s damage type to BURN."
+  },
+  {
+    "id": "reserve_pneumatic_enhancer",
+    "name": "Pneumatic Enhancer",
+    "type": "Tactical",
+    "label": "Resource",
+    "description": "Your pilot-scale HEAVY A/C weapons gain the following: On hit: target is knocked PRONE."
+  },
+  {
+    "id": "reserve_sniper_scope",
+    "name": "Sniper Scope",
+    "type": "Tactical",
+    "label": "Resource",
+    "description": "Your pilot-scale signature weapons gain +5 RANGE."
+  },
+  {
+    "id": "reserve_devastator_grenades",
+    "name": "Devastator Grenades",
+    "type": "Tactical",
+    "label": "Resource",
+    "description": "Your Frag Grenades deal +2 damage."
+  },
+  {
+    "id": "reserve_junker_exo_rig",
+    "name": "Junker Exo-Rig",
+    "type": "Tactical",
+    "label": "Resource",
+    "description": "You gain +1 ACCURACY to JOCKEY."
+  },
+  {
+    "id": "reserve_crash_cushions",
+    "name": "Crash Cushions",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: When you become STUNNED, you may activate this to not become STUNNED."
+  },
+  {
+    "id": "reserve_personal_cloak",
+    "name": "Personal Cloak",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: As a protocol, you become INVISIBLE until the start of your next turn.",
+    "actions": [
+      {
+        "name": "Personal Cloak",
+        "activation": "Protocol",
+        "detail": "Become INVISIBLE until the start of your next turn.",
+        "frequency": "1/mission"
+      }
+    ]
+  },
+  {
+    "id": "reserve_precision_targeting_software",
+    "name": "Precision Targeting Software",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: After hitting with an attack, you may activate this to make the attack critical."
+  },
+  {
+    "id": "reserve_frostfang_servos",
+    "name": "Frostfang Servos",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: BOOST as a free action.",
+    "actions": [
+      {
+        "name": "Frostfang Servos",
+        "activation": "Free",
+        "detail": "BOOST as a free action.",
+        "frequency": "1/mission"
+      }
+    ]
+  },
+  {
+    "id": "reserve_gyro_stabilizers",
+    "name": "Gyro Stabilizers",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: As a protocol, treat all of your weapons as if they aren’t ORDNANCE for the rest of the turn.",
+    "actions": [
+      {
+        "name": "Gyro Stabilizers",
+        "activation": "Protocol",
+        "detail": "Treat all of your weapons as if they aren’t ORDNANCE for the rest of the turn.",
+        "frequency": "1/mission"
+      }
+    ]
+  },
+  {
+    "id": "reserve_high_speed_loader",
+    "name": "High-Speed Loader",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: Reload all weapons as a free action.",
+    "actions": [
+      {
+        "name": "High-Speed Loader",
+        "activation": "Free",
+        "detail": "Reload all weapons as a free action.",
+        "frequency": "1/mission"
+      }
+    ]
+  },
+  {
+    "id": "reserve_system_flayer",
+    "name": "System Flayer",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: After hitting with INVADE, you may activate this to deal +4 Heat."
+  },
+  {
+    "id": "emergency_coolant_reservoir",
+    "name": "Emergency Coolant Reservoir",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: Clear EXPOSED as a free action.",
+    "actions": [
+      {
+        "name": "Emergency Coolant Reservoir",
+        "activation": "Free",
+        "detail": "Clear EXPOSED as a free action.",
+        "frequency": "1/mission"
+      }
+    ]
+  },
+  {
+    "id": "reserve_ic_blinkpack",
+    "name": "IC Blinkpack",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: As a protocol, you may teleport whenever you move for the rest of your turn.",
+    "actions": [
+      {
+        "name": "IC Blinkpack",
+        "activation": "Protocol",
+        "detail": "As a protocol, you may teleport whenever you move for the rest of your turn.",
+        "frequency": "1/mission"
+      }
+    ]
+  },
+  {
+    "id": "reserve_explosive_knuckles",
+    "name": "Explosive Knuckles",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: After hitting with a RAM, you may activate this to deal 6 explosive damage."
+  },
+  {
+    "id": "reserve_ultra_high_penetrator_rounds",
+    "name": "Ultra-High Penetrator Rounds",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: After hitting with a ranged attack, you may activate this to declare that the attack’s damage can’t be reduced."
+  },
+  {
+    "id": "reserve_run_off_energy_converter",
+    "name": "Run-Off Energy Converter",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: When you use your CORE POWER, you may activate this to generate a BURST 4 aura of lightning. Hostile characters in the area take 4 energy damage."
+  },
+  {
+    "id": "reserve_system_backup",
+    "name": "System Backup",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: When forced to perform a save or check you may activate this to automatically succeed."
+  },
+  {
+    "id": "reserve_field_marshal_comp_con",
+    "name": "“Field Marshal” Comp/Con",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: As a quick action, up to two allied characters within SENSORS may each immediately perform a single quick action as a reaction.",
+    "actions": [
+      {
+        "name": "“Field Marshal” Comp/Con",
+        "activation": "Quick",
+        "detail": "As a quick action, up to two allied characters within SENSORS may each immediately perform a single quick action as a reaction.",
+        "frequency": "1/mission"
+      }
+    ]
+  },
+  {
+    "id": "reserve_retractable_slab_shields",
+    "name": "Retractable Slab Shields",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: As a protocol, you become IMMOBILIZED until the start of your next turn and gain RESISTANCE to all damage for the same duration.",
+    "actions": [
+      {
+        "name": "Retractable Slab Shields",
+        "activation": "Protocol",
+        "detail": "As a protocol, you become IMMOBILIZED until the start of your next turn and gain RESISTANCE to all damage for the same duration.",
+        "frequency": "1/mission"
+      }
+    ]
+  },
+  {
+    "id": "reserve_automated_reflex_suite",
+    "name": "Automated Reflex Suite",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: When you are hit by an attack, you may make the attack a miss as a reaction.",
+    "actions": [
+      {
+        "name": "Automated Reflex Suite",
+        "activation": "Reaction",
+        "trigger": "You are hit by an attack.",
+        "detail": "The attack automatically misses.",
+        "frequency": "1/mission"
+      }
+    ]
+  },
+  {
+    "id": "reserve_bubble_active_personal_shield",
+    "name": "“Bubble” Active Personal Shield",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: As a protocol, gain 4+GRIT OVERSHIELD.",
+    "actions": [
+      {
+        "name": "“Bubble” Active Personal Shield",
+        "activation": "Protocol",
+        "detail": "As a protocol, gain 4+GRIT OVERSHIELD.",
+        "frequency": "1/mission"
+      }
+    ]
+  },
+  {
+    "id": "reserve_thermal_optics",
+    "name": "Thermal Optics",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: As a protocol, you may activate this to ignore cover until the end of your turn.",
+    "actions": [
+      {
+        "name": "Thermal Optics",
+        "activation": "Protocol",
+        "detail": "As a protocol, you may activate this to ignore cover until the end of your turn.",
+        "frequency": "1/mission"
+      }
+    ]
+  },
+  {
+    "id": "reserve_strain_resistant_actuator",
+    "name": "Strain-Resistant Actuator",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: When you BRACE, you may activate this to suffer no detrimental effects from doing so."
+  },
+  {
+    "id": "reserve_hyper_spec_fuel_canister",
+    "name": "Hyper-Spec Fuel Canister",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/mission: As a protocol, you may activate this to gain +1 ACCURACY on all attacks, saves, and checks until the start of your next turn.",
+    "actions": [
+      {
+        "name": "Hyper-Spec Fuel Canister",
+        "activation": "Protocol",
+        "detail": "As a protocol, you may activate this to gain +1 ACCURACY on all attacks, saves, and checks until the start of your next turn.",
+        "frequency": "1/mission"
+      }
+    ]
+  }
+]
