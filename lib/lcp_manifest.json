@@ -3,7 +3,7 @@
   "author": "Ralf Ziegler",
   "description": "COMP/CON data for Dustgrave, a structured mission module for Lancer, written and designed by Ralf Ziegler. Includes the IPS-N Störtebeker, SSC Viceroy, new talents, weapons, a system, a core bonus, NPC Templates and exotic gear.",
   "item_prefix": "dustgrave-",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "image_url": "https://d2c79xe1p61csc.cloudfront.net/other/dustgravecover.jpg",
   "website": "https://massif-press.itch.io/dustgrave"
 }
