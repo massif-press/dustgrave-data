@@ -1,7 +1,8 @@
 [
   {
     "id": "mf_störtebeker",
-    "variant": "RALEIGH",
+    "variant": "Raleigh",
+    "license_id": "mf_raleigh",
     "license_level": 2,
     "source": "IPS-N",
     "name": "Störtebeker",
@@ -115,7 +116,8 @@
   },
   {
     "id": "mf_micro_monarch",
-    "variant": "MONARCH",
+    "variant": "Monarch",
+    "license_id": "mf_monarch",
     "license_level": 2,
     "source": "SSC",
     "name": "Viceroy",

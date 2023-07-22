@@ -21,7 +21,7 @@
   },
   {
     "id": "npct_industrial_mech",
-    "name": "Industrial Mech",
+    "name": "Industrial",
     "description": "Civilian machines built for mining and construction are much more numerous in the galaxy than those purpose-built for combat. Despite their obvious shortcomings, those with little alternatives will often pilot these chassis into battle, turning tools meant to create into tools used to destroy.",
     "base_features": [
       "npcf_construction_tools_industrial_mech",
