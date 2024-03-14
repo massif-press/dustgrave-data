@@ -16,6 +16,9 @@
       },
       {
         "id": "tg_unique"
+      },
+      {
+        "id": "tg_pilot_weapon"
       }
     ],
     "range": [
@@ -51,6 +54,9 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_pilot_weapon"
       }
     ],
     "range": [
@@ -87,6 +93,9 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_pilot_weapon"
       }
     ],
     "range": [
@@ -116,6 +125,9 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_pilot_weapon"
       }
     ],
     "range": [
@@ -149,6 +161,9 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_pilot_weapon"
       }
     ],
     "range": [
@@ -187,6 +202,9 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -201,6 +219,9 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -215,6 +236,9 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -229,6 +253,9 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -257,6 +284,9 @@
       {
         "id": "tg_limited",
         "val": 2
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -279,6 +309,9 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -291,6 +324,9 @@
     "tags": [
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_personal_armor"
       }
     ],
     "bonuses": [
