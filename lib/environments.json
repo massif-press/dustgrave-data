@@ -1,0 +1,22 @@
+[
+  {
+    "id": "env_chokingdust",
+    "name": "Choking Dust",
+    "description": "The dust clouds choking the battlefield make fighting a chore. Place 5–6 Blast 1 clouds strewn across the battlefield. Characters at least partially within a dust cloud gain soft cover and are Impaired while occupying it."
+  },
+  {
+    "id": "env_arenahazards",
+    "name": "Arena Hazards",
+    "description": "To make the fights more interesting and violent, the arena is full of hazards from whirling buzzsaws to vicious piston spikes. Place four Blast 1 areas on the battlefield. Characters that enter or start their turn inside one of these hazards take 4/5/6 kinetic damage. They may only be damaged by the hazards 1/round. Arena hazards are indestructible. 1/round, these hazards can be targeted with Invade. They have 12/14/16 E-Defense. On a hit, all characters adjacent to the hazard take damage as if they had moved through it."
+  },
+  {
+    "id": "env_mesmertrance",
+    "name": "MesmerTrance",
+    "description": "Player characters without an installed MesmerTrance Dampener are susceptible to the MesmerTrance virus. At the start of each turn, susceptible characters must succeed on a Systems save (11/13/15) or gain 1 MesmerTrance Counter. These counters convey cumulative detrimental effects based on the number of counters accumulated: 1. No effect 2. Gain 1 Heat and an additional 1 Heat at the start of each of the character’s subsequent turns 3. Become Slowed 4. Become Impaired 5. Become Jammed 6. Take 1 stress damage. Affected characters can Stabilize to clear all MesmerTrance Counters."
+  },
+  {
+    "id": "env_automatedrepairstations",
+    "name": "Automated Repair Stations",
+    "description": "Place three Blast 1 areas on the battlefield at least 5 spaces away from each other. NPCs that start their turn at least partially inside those areas regain 3/5/7 HP. These areas can be targeted as if they were objects with 5 Evasion and 10/13/16 HP."
+  }
+]

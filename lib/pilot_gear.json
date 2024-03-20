@@ -3,7 +3,7 @@
     "id": "ms_madrigal_precision_rifle",
     "name": "Madrigal Precision Rifle",
     "type": "Weapon",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.",
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p>",
     "tags": [
       {
         "id": "tg_accurate"
@@ -16,11 +16,14 @@
       },
       {
         "id": "tg_unique"
+      },
+      {
+        "id": "tg_pilot_weapon"
       }
     ],
     "range": [
       {
-        "type": "range",
+        "type": "Range",
         "val": 15
       }
     ],
@@ -35,7 +38,7 @@
     "id": "ms_madrigal_shoulder_launcher",
     "name": "Madrigal Shoulder Launcher",
     "type": "Weapon",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.",
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p>",
     "tags": [
       {
         "id": "tg_arcing"
@@ -51,11 +54,14 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_pilot_weapon"
       }
     ],
     "range": [
       {
-        "type": "range",
+        "type": "Range",
         "val": 10
       },
       {
@@ -74,7 +80,7 @@
     "id": "ms_madrigal_boarding_shotgun",
     "name": "Madrigal Boarding Shotgun",
     "type": "Weapon",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.",
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p>",
     "tags": [
       {
         "id": "tg_ap"
@@ -87,11 +93,14 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_pilot_weapon"
       }
     ],
     "range": [
       {
-        "type": "range",
+        "type": "Range",
         "val": 3
       }
     ],
@@ -106,7 +115,7 @@
     "id": "ms_madrigal_power_crusher",
     "name": "Madrigal Power Crusher",
     "type": "Weapon",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br><b>On Hit</b>: Target becomes Immobilized and Impaired until the end of its next turn. This weapon automatically hits Terrain and deals 10 AP Kinetic damage.",
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p><b>On Hit</b>: Target becomes Immobilized and Impaired until the end of its next turn.</p><p>This weapon automatically hits Terrain and deals 10 AP Kinetic damage.</p>",
     "tags": [
       {
         "id": "tg_unique"
@@ -116,11 +125,14 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_pilot_weapon"
       }
     ],
     "range": [
       {
-        "type": "threat",
+        "type": "Threat",
         "val": 1
       }
     ],
@@ -135,7 +147,7 @@
     "id": "ms_madrigal_railgun",
     "name": "Madrigal Railgun",
     "type": "Weapon",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.",
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p>",
     "tags": [
       {
         "id": "tg_limited",
@@ -149,11 +161,14 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_pilot_weapon"
       }
     ],
     "range": [
       {
-        "type": "line",
+        "type": "Line",
         "val": 8
       }
     ],
@@ -168,7 +183,7 @@
     "id": "ms_madrigal_disruptor_grenades",
     "name": "Madrigal Disruptor Grenade",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot, you gain the Disruptor Grenade quick action.",
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p>If your pilot is on foot, you gain the Disruptor Grenade quick action.</p>",
     "actions": [
       {
         "name": "Disruptor Grenade",
@@ -187,6 +202,9 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -194,13 +212,16 @@
     "id": "ms_madrigal_jump_system",
     "name": "Madrigal Jump System",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot you may Fly when you Boost. You must end this movement on solid ground or begin falling.",
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p>If your pilot is on foot you may Fly when you Boost. You must end this movement on solid ground or begin falling.</p>",
     "tags": [
       {
         "id": "tg_unique"
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -208,13 +229,16 @@
     "id": "ms_madrigal_thermal_visor",
     "name": "Madrigal Thermal Visor",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot your attacks ignore Cover.",
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p>If your pilot is on foot your attacks ignore Cover.</p>",
     "tags": [
       {
         "id": "tg_unique"
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -222,13 +246,16 @@
     "id": "ms_madrigal_active_camo",
     "name": "Madrigal Active Camo",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot, ranged attacks originating from beyond Range 3 treat you as having Hard Cover.",
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p>If your pilot is on foot, ranged attacks originating from beyond Range 3 treat you as having Hard Cover.</p>",
     "tags": [
       {
         "id": "tg_unique"
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -236,7 +263,7 @@
     "id": "ms_madrigal_personal_shield",
     "name": "Madrigal Personal Shield",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot, you gain the Shielded reaction.",
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p>If your pilot is on foot, you gain the Shielded reaction.</p>",
     "actions": [
       {
         "name": "Shielded",
@@ -257,6 +284,9 @@
       {
         "id": "tg_limited",
         "val": 2
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -264,7 +294,7 @@
     "id": "ms_madrigal_shock_field",
     "name": "Madrigal Shock Field",
     "type": "Gear",
-    "description": "<b>Special Rules:</b><br>Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”. <br>If your pilot is on foot, you gain the Shock Field quick action.",
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p>If your pilot is on foot, you gain the Shock Field quick action.</p>",
     "actions": [
       {
         "name": "Shock Field",
@@ -279,6 +309,9 @@
       },
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_gear"
       }
     ]
   },
@@ -286,10 +319,14 @@
     "id": "ms_madrigal_boarding_carapace_armor",
     "name": "Madrigal Boarding Carapace",
     "type": "Armor",
-    "description": "The Madrigal line of personal protection hardsuits, manufactured by Cyprian Industries, represents some of the best void-capable combat suits available. Designed for carrying out and defending against boarding actions, the Madrigal system is modular and can be adjusted to tackle varied tactical situations. While inferior to heavier, dedicated boarding hardsuits and mechs such as the IPS-N Caliban and the Harrison Armory Kutuzov, the Madrigal yet boasts an impressive degree of personal protection without sacrificing mobility or agility. Compact enough to be worn in a mech’s cockpit, the Madrigal is slowly but steadily encroaching on the pilot hardsuits market. Its superior protection, armaments, and auxiliary systems make it an attractive choice for lancers everywhere. <br> <b>Special Rules:</b> <br>If a pilot takes the Madrigal Boarding Carapace they can’t take any pilot weapons or Gear that don’t have “Madrigal” in the name. Madrigal weapons and Gear may only be equipped by pilots wearing the Madrigal Boarding Carapace. While wearing the carapace, you may only Dismount or Eject before your mech has acted for the turn (excluding protocols). If you aren’t in your mech and it is being controlled by another person or an AI, it may only perform a single quick action and standard movement on each of its turns. It may perform protocols and reactions as normal. When your mech Braces during this time it also loses its remaining quick action. These effects last until you retake control as a protocol. The Madrigal Boarding Carapace counts as one of the two Exotic Gear systems you may have installed at a time, but Madrigal weapons and Gear do not.",
+    "effect": "<p>If a pilot takes the Madrigal Boarding Carapace they can’t take any pilot weapons or Gear that don’t have “Madrigal” in the name. Madrigal weapons and Gear may only be equipped by pilots wearing the Madrigal Boarding Carapace.</p><p>While wearing the carapace, you may only Dismount or Eject before your mech has acted for the turn (excluding protocols).</p><p>If you aren’t in your mech and it is being controlled by another person or an AI, it may only perform a single quick action and standard movement on each of its turns. It may perform protocols and reactions as normal. When your mech Braces during this time it also loses its remaining quick action. These effects last until you retake control as a protocol.</p><p>The Madrigal Boarding Carapace counts as one of the two Exotic Gear systems you may have installed at a time, but Madrigal weapons and Gear do not.</p>",
+    "description": "The Madrigal line of personal protection hardsuits, manufactured by Cyprian Industries, represents some of the best void-capable combat suits available. Designed for carrying out and defending against boarding actions, the Madrigal system is modular and can be adjusted to tackle varied tactical situations. While inferior to heavier, dedicated boarding hardsuits and mechs such as the IPS-N Caliban and the Harrison Armory Kutuzov, the Madrigal yet boasts an impressive degree of personal protection without sacrificing mobility or agility. Compact enough to be worn in a mech’s cockpit, the Madrigal is slowly but steadily encroaching on the pilot hardsuits market. Its superior protection, armaments, and auxiliary systems make it an attractive choice for lancers everywhere.",
     "tags": [
       {
         "id": "tg_exotic"
+      },
+      {
+        "id": "tg_personal_armor"
       }
     ],
     "bonuses": [

@@ -11,21 +11,39 @@
     "name": "Incendiary Ammo (Pilot-Scale)",
     "type": "Tactical",
     "label": "Resource",
-    "description": "Changes a pilot-scale weapon’s damage type to BURN."
+    "description": "Changes a pilot-scale weapon’s damage type to BURN.",
+    "synergies": [
+      {
+        "locations": ["pilot_weapon"],
+        "detail": "Changes a pilot-scale weapon’s damage type to BURN."
+      }
+    ]
   },
   {
     "id": "reserve_pneumatic_enhancer",
     "name": "Pneumatic Enhancer",
     "type": "Tactical",
     "label": "Resource",
-    "description": "Your pilot-scale HEAVY A/C weapons gain the following: On hit: target is knocked PRONE."
+    "description": "Your pilot-scale HEAVY A/C weapons gain the following: On hit: target is knocked PRONE.",
+    "synergies": [
+      {
+        "locations": ["pilot_weapon"],
+        "detail": "Your pilot-scale HEAVY A/C weapons gain the following: On hit: target is knocked PRONE."
+      }
+    ]
   },
   {
     "id": "reserve_sniper_scope",
     "name": "Sniper Scope",
     "type": "Tactical",
     "label": "Resource",
-    "description": "Your pilot-scale signature weapons gain +5 RANGE."
+    "description": "Your pilot-scale signature weapons gain +5 RANGE.",
+    "synergies": [
+      {
+        "locations": ["pilot_weapon"],
+        "detail": "Your pilot-scale signature weapons gain +5 RANGE."
+      }
+    ]
   },
   {
     "id": "reserve_devastator_grenades",
@@ -68,7 +86,14 @@
     "name": "Precision Targeting Software",
     "type": "Mech",
     "label": "Resource",
-    "description": "1/mission: After hitting with an attack, you may activate this to make the attack critical."
+    "description": "1/mission: After hitting with an attack, you may activate this to make the attack critical.",
+    "synergies": [
+      {
+        "locations": ["weapon"],
+        "weapon_types": ["any"],
+        "detail": "1/mission: After hitting with an attack, you may activate this to make the attack critical."
+      }
+    ]
   },
   {
     "id": "reserve_frostfang_servos",
@@ -82,6 +107,12 @@
         "activation": "Free",
         "detail": "BOOST as a free action.",
         "frequency": "1/mission"
+      }
+    ],
+    "synergies": [
+      {
+        "locations": ["boost"],
+        "detail": "1/mission: BOOST as a free action."
       }
     ]
   },
@@ -97,6 +128,12 @@
         "activation": "Protocol",
         "detail": "Treat all of your weapons as if they aren’t ORDNANCE for the rest of the turn.",
         "frequency": "1/mission"
+      }
+    ],
+    "synergies": [
+      {
+        "locations": ["weapon"],
+        "detail": "1/mission: As a protocol, treat all of your weapons as if they aren’t ORDNANCE for the rest of the turn."
       }
     ]
   },
@@ -120,7 +157,13 @@
     "name": "System Flayer",
     "type": "Mech",
     "label": "Resource",
-    "description": "1/mission: After hitting with INVADE, you may activate this to deal +4 Heat."
+    "description": "1/mission: After hitting with INVADE, you may activate this to deal +4 Heat.",
+    "synergies": [
+      {
+        "locations": ["tech_attack"],
+        "detail": "1/mission: After hitting with INVADE, you may activate this to deal +4 Heat."
+      }
+    ]
   },
   {
     "id": "emergency_coolant_reservoir",
@@ -150,6 +193,12 @@
         "detail": "As a protocol, you may teleport whenever you move for the rest of your turn.",
         "frequency": "1/mission"
       }
+    ],
+    "synergies": [
+      {
+        "locations": ["move"],
+        "detail": "1/mission: As a protocol, you may teleport whenever you move for the rest of your turn."
+      }
     ]
   },
   {
@@ -157,28 +206,53 @@
     "name": "Explosive Knuckles",
     "type": "Mech",
     "label": "Resource",
-    "description": "1/mission: After hitting with a RAM, you may activate this to deal 6 explosive damage."
+    "description": "1/mission: After hitting with a RAM, you may activate this to deal 6 explosive damage.",
+    "synergies": [
+      {
+        "locations": ["ram"],
+        "detail": "1/mission: After hitting with a RAM, you may activate this to deal 6 explosive damage."
+      }
+    ]
   },
   {
     "id": "reserve_ultra_high_penetrator_rounds",
     "name": "Ultra-High Penetrator Rounds",
     "type": "Mech",
     "label": "Resource",
-    "description": "1/mission: After hitting with a ranged attack, you may activate this to declare that the attack’s damage can’t be reduced."
+    "description": "1/mission: After hitting with a ranged attack, you may activate this to declare that the attack’s damage can’t be reduced.",
+    "synergies": [
+      {
+        "locations": ["weapon"],
+        "weapon_types": ["any"],
+        "detail": "1/mission: After hitting with a ranged attack, you may activate this to declare that the attack’s damage can’t be reduced."
+      }
+    ]
   },
   {
     "id": "reserve_run_off_energy_converter",
     "name": "Run-Off Energy Converter",
     "type": "Mech",
     "label": "Resource",
-    "description": "1/mission: When you use your CORE POWER, you may activate this to generate a BURST 4 aura of lightning. Hostile characters in the area take 4 energy damage."
+    "description": "1/mission: When you use your CORE POWER, you may activate this to generate a BURST 4 aura of lightning. Hostile characters in the area take 4 energy damage.",
+    "synergies": [
+      {
+        "locations": ["core_power"],
+        "detail": "1/mission: When you use your CORE POWER, you may activate this to generate a BURST 4 aura of lightning. Hostile characters in the area take 4 energy damage."
+      }
+    ]
   },
   {
     "id": "reserve_system_backup",
     "name": "System Backup",
     "type": "Mech",
     "label": "Resource",
-    "description": "1/mission: When forced to perform a save or check you may activate this to automatically succeed."
+    "description": "1/mission: When forced to perform a save or check you may activate this to automatically succeed.",
+    "synergies": [
+      {
+        "locations": ["skill_check"],
+        "detail": "1/mission: When forced to perform a save or check you may activate this to automatically succeed."
+      }
+    ]
   },
   {
     "id": "reserve_field_marshal_comp_con",
@@ -239,6 +313,12 @@
         "detail": "As a protocol, gain 4+GRIT OVERSHIELD.",
         "frequency": "1/mission"
       }
+    ],
+    "synergies": [
+      {
+        "locations": ["overshield"],
+        "detail": "1/mission: As a protocol, gain 4+GRIT OVERSHIELD."
+      }
     ]
   },
   {
@@ -254,6 +334,13 @@
         "detail": "As a protocol, you may activate this to ignore cover until the end of your turn.",
         "frequency": "1/mission"
       }
+    ],
+    "synergies": [
+      {
+        "locations": ["weapon"],
+        "weapon_types": ["any"],
+        "detail": "As a protocol, you may activate this to ignore cover until the end of your turn."
+      }
     ]
   },
   {
@@ -261,7 +348,13 @@
     "name": "Strain-Resistant Actuator",
     "type": "Mech",
     "label": "Resource",
-    "description": "1/mission: When you BRACE, you may activate this to suffer no detrimental effects from doing so."
+    "description": "1/mission: When you BRACE, you may activate this to suffer no detrimental effects from doing so.",
+    "synergies": [
+      {
+        "locations": ["brace"],
+        "detail": "1/mission: When you BRACE, you may activate this to suffer no detrimental effects from doing so."
+      }
+    ]
   },
   {
     "id": "reserve_hyper_spec_fuel_canister",
@@ -275,6 +368,12 @@
         "activation": "Protocol",
         "detail": "As a protocol, you may activate this to gain +1 ACCURACY on all attacks, saves, and checks until the start of your next turn.",
         "frequency": "1/mission"
+      }
+    ],
+    "synergies": [
+      {
+        "locations": ["skill_check"],
+        "detail": "1/mission: When forced to perform a save or check you may activate this to automatically succeed."
       }
     ]
   }

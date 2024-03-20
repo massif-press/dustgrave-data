@@ -5,7 +5,7 @@ const data = {
   // actions: require('./lib/actions.json'),
   // backgrounds: require('./lib/backgrounds.json'),
   core_bonuses: require('./lib/core_bonuses.json'),
-  // environments: require('./lib/environments.json'),
+  environments: require('./lib/environments.json'),
   frames: require('./lib/frames.json'),
   // manufacturers: require('./lib/manufacturers.json'),
   // mods: require('./lib/mods.json'),
