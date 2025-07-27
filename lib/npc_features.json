@@ -97,7 +97,10 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "This trait can only be applied if the Horror is Biological. The Horror is no longer Biological and gains Heat Cap 6."
+    "effect": "This trait can only be applied if the Horror is Biological. The Horror is no longer Biological and gains Heat Cap 6.",
+    "override": {
+      "heatcap": 6
+    }
   },
   {
     "id": "npcf_terrifying_horror",
