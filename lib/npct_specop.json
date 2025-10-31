@@ -1,0 +1,257 @@
+[
+  {
+    "id": "npct_commando_spec_op",
+    "template": true,
+    "name": "Spec Op",
+    "description": "Expertly trained and equipped individuals that often deploy in teams to increase their deadly potential even further. Those that end up on the wrong side of such a strike team should exercise extreme caution.",
+    "prohibitTemplates": ["npct_ultra", "npct_veteran", "npct_elite"]
+  },
+  {
+    "id": "npcf_operatives_spec_op",
+    "name": "Operatives",
+    "origin": "npct_specop",
+    "base": true,
+    "deprecated": true,
+    "type": "Trait",
+    "effect": "When choosing optional systems and traits, the Spec Ops can also choose from the Spec Ops Systems and Traits list. Additionally, the Spec Ops can’t take the Grunt, Elite, or Ultra templates. (This trait is deprecated and can be safely removed)"
+  },
+  {
+    "id": "npcf_active_camo_spec_op",
+    "name": "Active Camo",
+    "origin": "npct_specop",
+    "base": true,
+    "type": "System",
+    "effect": "As a protocol, the Spec Ops may expend a charge to become Invisible until the end of their next turn. For the duration of this effect, the Spec Ops’ next melee or ranged attack becomes a critical hit if it hits.",
+    "actions": [
+      {
+        "name": "Activate Active Camo",
+        "activation": "Protocol",
+        "effect": "You become Invisible until the end of their next turn. For the duration of this effect, your next melee or ranged attack becomes a critical hit if it hits.",
+        "add_status": {
+          "id": "invisible",
+          "duration": "next_turn_end_self",
+          "target": "self"
+        },
+        "active_effects": [
+          {
+            "name": "Active Camo",
+            "detail": "Your next melee or ranged attack becomes a critical hit if it hits."
+          }
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "npcf_deadly_precision_spec_op",
+    "name": "Deadly Precision",
+    "origin": "npct_specop",
+    "base": true,
+    "type": "Trait",
+    "effect": "The Spec Ops deals +{2/3/3} bonus damage on critical hits.",
+    "active_effects": [
+      {
+        "name": "Deadly Precision Bonus Damage",
+        "detail": "You deal +{2/3/3} bonus damage on critical hits.",
+        "bonus_damage": [2, 3, 3]
+      }
+    ]
+  },
+  {
+    "id": "npcf_coordinated_carnage_spec_op",
+    "name": "Coordinated Carnage",
+    "origin": "npct_specop",
+    "base": true,
+    "type": "Trait",
+    "effect": "After all Spec Ops characters have taken their turns in a round, a single Spec Ops character may take an additional turn in the usual turn order.",
+    "active_effects": [
+      {
+        "name": "Coordinated Carnage Extra Turn",
+        "condition": "All Spec Ops characters have taken their turns in a round",
+        "detail": "A single Spec Ops character may take an additional turn in the usual turn order."
+      }
+    ]
+  },
+  {
+    "id": "npcf_full_spectrum_sensor_suite_spec_op",
+    "name": "Full-Spectrum Sensor Suite",
+    "origin": "npct_specop",
+    "base": false,
+    "type": "System",
+    "effect": "The Spec Ops may Lock On as a protocol. Whenever an allied Spec Ops character within Range 10 consumes any Lock On, their attack is not affected by cover. This system can only be taken by one Spec Ops per combat.",
+    "active_effects": [
+      {
+        "name": "Full-Spectrum Sensor Suite",
+        "detail": "Whenever an allied Spec Ops character within Range 10 consumes any Lock On, their attack is not affected by cover.",
+        "range": [
+          {
+            "type": "Range",
+            "val": 10
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Full-Spectrum Sensor Suite Lock On",
+        "activation": "Protocol",
+        "effect": "You may Lock On to a target.",
+        "add_status": {
+          "id": "lockon"
+        }
+      }
+    ]
+  },
+  {
+    "id": "npcf_automated_battlefield_awareness_node_spec_op",
+    "name": "Automated Battlefield Awareness Node",
+    "origin": "npct_specop",
+    "base": false,
+    "type": "System",
+    "actions": [
+      {
+        "name": "Battlefield Awareness",
+        "activation": "Reaction",
+        "trigger": "An allied Spec Ops character within Range 8 and line of sight would roll a save.",
+        "effect": "They automatically succeed on the save before rolling any dice.",
+        "range": [
+          {
+            "type": "Range",
+            "val": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "npcf_serrated_machete_spec_op",
+    "name": "Serrated Machete",
+    "origin": "npct_specop",
+    "base": false,
+    "type": "Weapon",
+    "on_crit": {
+      "detail": "The target becomes Shredded until the end of their next turn.",
+      "add_status": {
+        "id": "shredded",
+        "duration": "next_turn_end_target"
+      }
+    },
+    "tags": [
+      {
+        "id": "tg_thrown",
+        "val": 5
+      }
+    ],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [2, 4, 6],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [4, 5, 6]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "npcf_special_munitions_spec_op",
+    "name": "Special Munitions",
+    "origin": "npct_specop",
+    "base": false,
+    "type": "Trait",
+    "effect": "The Spec Ops' Ranged Attacks gain “<b>On critical hit:</b> The target is knocked Prone.” <br>Additionally, before making a Ranged Attack that deals Kinetic, Energy, or Explosive Damage, the Spec Ops may swap that damage type for one of the other two.",
+    "active_effects": [
+      {
+        "name": "Special Munitions",
+        "detail": "Your Ranged Attacks gain <b>“On critical hit: The target is knocked Prone.”</b>"
+      }
+    ]
+  },
+  {
+    "id": "npcf_bulwark_mods_spec_op",
+    "name": "Bulwark Mods",
+    "origin": "npct_specop",
+    "base": false,
+    "type": "Trait",
+    "effect": "The Spec Ops ignores difficult and dangerous terrain.",
+    "active_effects": [
+      {
+        "name": "Bulwark Mods",
+        "detail": "You ignore difficult and dangerous terrain."
+      }
+    ]
+  },
+  {
+    "id": "npcf_gyrojet_cannon_spec_op",
+    "name": "Gyro-Jet Cannon",
+    "origin": "npct_specop",
+    "base": false,
+    "type": "Weapon",
+    "tags": [
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_knockback",
+        "val": 2
+      }
+    ],
+    "weapon_type": "Main Launcher",
+    "attack_bonus": [2, 4, 6],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [6, 8, 10]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ]
+  },
+  {
+    "id": "npcf_burst_jets_spec_op",
+    "name": "Jump Packs",
+    "origin": "npct_specop",
+    "base": false,
+    "type": "System",
+    "effect": "The Spec Ops can fly whenever it Boosts. It must end this movement on a solid surface or begin falling.",
+    "active_effects": [
+      {
+        "name": "Jump Packs",
+        "detail": "You can fly whenever you Boost. You must end this movement on a solid surface or begin falling."
+      }
+    ]
+  },
+  {
+    "id": "npcf_null_perception_coating_spec_op",
+    "name": "Null-Perception Coating",
+    "origin": "npct_specop",
+    "base": false,
+    "type": "Trait",
+    "effect": "The Spec Ops gains Immunity to Lock On.",
+    "active_effects": [
+      {
+        "name": "Null-Perception Coating",
+        "detail": "You gain Immunity to Lock On.",
+        "add_resist": [
+          {
+            "immunity": "lockon",
+            "target": "self"
+          }
+        ]
+      }
+    ]
+  }
+]

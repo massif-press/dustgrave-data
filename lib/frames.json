@@ -6,16 +6,10 @@
     "license_level": 2,
     "source": "IPS-N",
     "name": "Störtebeker",
-    "mechtype": [
-      "Striker"
-    ],
+    "mechtype": ["Striker"],
     "y_pos": 42,
     "description": "Following the commercial failure of the Raleigh, several third parties found themselves with the opportunity of buying out development rights for the license as IPS-N sought to recoup initial costs. One of the companies that found itself in this position, Anton Industries, had fallen on hard times after its CEO vanished in mysterious circumstances, leading to plummeting stocks. <br>Chasing a lucky break and seizing the opportunity, Anton Industries began work on what would ultimately be the last frame ever to be developed under its name. Basing the modifications to the Raleigh on one of its own mechs – the Hades Mk3 – Anton Industries quickly developed the frame into a capable combined-arms platform emphasizing speed and rapid deployment. Instead of the Raleigh’s integrated Mjolnir, a weapon far too heavy for the new doctrinal approach, the modified chassis sports an internal reservoir of TRUESILVER nanites, a proprietary whitewash product capable of enhancing a weapon’s destructive power on a strike-to-strike basis. <br>The resulting mech was named “Störtebeker” after an old Cradle legend in a fit of gallows humor regarding the company’s less than ideal position. The frame, just like its namesake, ultimately spelled doom for the company, despite its relative success. <br>Quickly gaining popularity among mercenaries, black-ops units, and bounty hunters alike, the Störtebeker became the frame of choice for those requiring speed and maneuverability out of an IPS-N base but who preferred a solid ranged component over the Nelson’s dedicated close-combat focus. <br>IPS-N itself, interested in the Störtebeker, eventually decided to buy out the smaller company and, indifferent to Anton Industries’ other projects and subsidiaries, cannibalized the company in its entirety. Thus, the Störtebeker, now licensed fully as a Raleigh variant-frame under the IPS-N label, stands as a testament to a company’s destruction and how sometimes, one can do well and fail because of it.",
-    "mounts": [
-      "Flex",
-      "Flex",
-      "Heavy"
-    ],
+    "mounts": ["Flex", "Flex", "Heavy"],
     "stats": {
       "size": 1,
       "structure": 4,
@@ -36,37 +30,27 @@
       {
         "name": "Dynamic Reload",
         "description": "The Störtebeker’s non-Auxiliary weapons gain the following effects: <br><ul><li><b>Melee weapons</b> gain: “On critical hit: Reload all ranged weapons not used to attack this turn.”</li><li><b>Ranged weapons</b> gain: “On critical hit: Reload all melee weapons not used to attack this turn.”</li></ul>",
+        "active_effects": [
+          {
+            "name": "Dynamic Reload: Melee",
+            "detail": "Reload all ranged weapons not used to attack this turn.",
+            "condition": "Melee weapon critical hit"
+          },
+          {
+            "name": "Dynamic Reload: Ranged",
+            "detail": "Reload all melee weapons not used to attack this turn.",
+            "condition": "Ranged weapon critical hit"
+          }
+        ],
         "synergies": [
           {
-            "locations": [
-              "weapon"
-            ],
-            "weapon_types": [
-              "Rifle",
-              "Cannon",
-              "Launcher",
-              "CQB",
-              "Nexus"
-            ],
-            "weapon_sizes": [
-              "Main",
-              "Heavy",
-              "Superheavy"
-            ],
+            "locations": ["weapon"],
+            "weapon_types": ["Rifle", "Cannon", "Launcher", "CQB", "Nexus"],
             "detail": "On critical hit: Reload all melee weapons not used to attack this turn."
           },
           {
-            "locations": [
-              "weapon"
-            ],
-            "weapon_types": [
-              "Melee"
-            ],
-            "weapon_sizes": [
-              "Main",
-              "Heavy",
-              "Superheavy"
-            ],
+            "locations": ["weapon"],
+            "weapon_types": ["Melee"],
             "detail": "On critical hit: Reload all ranged weapons not used to attack this turn."
           }
         ]
@@ -74,18 +58,12 @@
       {
         "name": "Truesilver",
         "description": "1/Scene, after hitting with a weapon, the Störtebeker may apply one of the following effects depending on the weapon’s type. <br><ul><li><b>Non-Loading weapon:</b> The hit is treated as a Critical Hit. Resulting damage is not rolled twice.</li><li><b>Loading weapon:</b> Resulting damage can’t be reduced.</li></ul>",
-        "synergies": [
+        "active_effects": [
           {
-            "locations": [
-              "weapon"
-            ],
-            "weapon_types": [
-              "any"
-            ],
-            "weapon_sizes": [
-              "any"
-            ],
-            "detail": "1/Scene, after hitting with a weapon, the Störtebeker may apply one of the following effects depending on the weapon’s type. <br><ul><li><b>Non-Loading weapon:</b> The hit is treated as a Critical Hit. Resulting damage is not rolled twice.</li><li><b>Loading weapon:</b> Resulting damage can’t be reduced.</li></ul>"
+            "name": "Truesilver",
+            "condition": "After hitting with a weapon",
+            "detail": "Apply one of the following effects depending on the weapon’s type. <br><ul><li><b>Non-Loading weapon:</b> The hit is treated as a Critical Hit. Resulting damage is not rolled twice.</li><li><b>Loading weapon:</b> Resulting damage can’t be reduced.</li></ul>",
+            "frequency": "1/Scene"
           }
         ]
       }
@@ -121,16 +99,10 @@
     "license_level": 2,
     "source": "SSC",
     "name": "Viceroy",
-    "mechtype": [
-      "Striker"
-    ],
+    "mechtype": ["Striker"],
     "y_pos": 11.5,
     "description": "An offshoot from SSC’s Bella Ciao line, the Viceroy is the result of rigorous field-testing in pursuit of a more accessible version of its larger sibling, the ever-ubiquitous Monarch. Originally developed under the moniker “MicroMonarch”, the scaled-down frame is nevertheless a force to be reckoned with and sports the high-quality engineering expected from all SSC mechs. Where the Monarch focuses on devastating long-range firepower, the Viceroy is more akin to a close-range brawler, using its sophisticated near-threat targeting arrays to wield the launchers of its sibling with deadly precision. <br>Equipped with a scaled-down version of the Monarch’s own SSC-30 High-Penetration Missile System, the Viceroy is more than capable of saturating an area around itself with relatively small but high-yield warheads, aimed with pinpoint accuracy. <br>This, coupled with an integrated, one-use burst jump pack, turns the Viceroy into a potent shock trooper with devastating first-strike capabilities. This role is supported by its ability to shrug off any potential self-inflicted harm from any “shock and awe” maneuvers thanks to its advanced blast-resistant armor plating. <br>Since its recent official release, the Viceroy has become – by SSC standards – an affordable frame that is now being widely rolled out to various SSC associates and subsidiaries. Slated to be approved for mass production, it is anticipated the Viceroy will become a frontline “soldier” mech to ultimately rival the likes of Harrison Armory’s Sherman.",
-    "mounts": [
-      "Aux/Aux",
-      "Flex",
-      "Heavy"
-    ],
+    "mounts": ["Aux/Aux", "Flex", "Heavy"],
     "stats": {
       "size": 1,
       "structure": 4,
@@ -151,28 +123,34 @@
       {
         "name": "Near-Threat Targeting Processor",
         "description": "The Viceroy treats its LAUNCHER weapons as though they are also CQB weapons with THREAT 3.",
-        "synergies": [
+        "bonuses": [
           {
-            "locations": [
-              "weapon"
-            ],
-            "weapon_types": [
-              "Launcher"
-            ],
-            "weapon_sizes": [
-              "any"
-            ],
-            "detail": "This weapon is treated as though it were also a CQB weapon with THREAT 3."
+            "id": "add_weapon_type",
+            "val": "CQB",
+            "weapon_type": "Launcher"
+          },
+          {
+            "id": "threat",
+            "val": 3,
+            "weapon_type": "Launcher"
           }
         ]
       },
       {
         "name": "Vigilante Omnidirectional Launchers",
-        "description": "1/Round, on a critical hit against a character, the Viceroy may immediately deal 2 Explosive damage to all characters of its choice within Range 3 of itself and knock them back 1 space."
+        "description": "1/Round, on a critical hit against a character, the Viceroy may immediately deal 2 Explosive damage to all characters of its choice within Range 3 of itself and knock them back 1 space.",
+        "damage": [
+          {
+            "type": "Explosive",
+            "val": 2,
+            "aoe": "burst 3"
+          }
+        ]
       },
       {
         "name": "Pressure Plating",
-        "description": "The Viceroy has Resistance to Explosive Damage."
+        "description": "The Viceroy has Resistance to Explosive Damage.",
+        "add_resist": [{ "resistance": "Explosive" }]
       }
     ],
     "core_system": {
@@ -180,6 +158,24 @@
       "description": "By redlining its integrated Vigilante launchers, the Viceroy can deliver a devastating saturation bombardment of its close surroundings. Weathering the onslaught thanks to its blast-resistant exterior, the Viceroy can utilize this salvo, when coupled with the miniaturized Tengu one-burst jump system, for a variety of advanced battlefield tactics. This allows it to either deliver a near-unstoppable alpha strike or make a dramatic exit. “Heaven’s downpour” is a technique that strikes fear in any that face a Viceroy pilot in combat.",
       "active_name": "Heaven’s Downpour",
       "active_effect": "Center a Burst 3 missile swarm on yourself. Hostile characters in the area must succeed on a Hull save or take 1d6+3 Explosive damage and be knocked Prone. On a successful save they take half damage and remain standing. You may consume an affected character’s Lock On to make them automatically fail the save. <br>Before or after taking this action you may Fly up to your Speed, ignoring Engagement and Reactions. You must end this movement on solid ground or begin falling.",
+      "active_actions": [
+        {
+          "name": "Heaven’s Downpour",
+          "detail": "Center a Burst 3 missile swarm on yourself. Hostile characters in the area must succeed on a Hull save or take 1d6+3 Explosive damage and be knocked Prone. On a successful save they take half damage and remain standing. You may consume an affected character’s Lock On to make them automatically fail the save. <br>Before or after taking this action you may Fly up to your Speed, ignoring Engagement and Reactions. You must end this movement on solid ground or begin falling.",
+          "damage": [
+            {
+              "type": "Explosive",
+              "val": "1d6+3",
+              "aoe": "burst 3"
+            }
+          ],
+          "add_status": [
+            {
+              "id": "Prone"
+            }
+          ]
+        }
+      ],
       "use": "Encounter",
       "activation": "Quick"
     },

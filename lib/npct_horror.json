@@ -1,0 +1,176 @@
+[
+  {
+    "id": "npct_horror",
+    "template": true,
+    "name": "Horror",
+    "description": "Artificial horrors beyond human comprehension. From biosynth-hybrid mechs and nanite-swarm gestalt-schools to phase-shifted tachyon phantoms. A horror may come in many forms, but those that are forced to face one in combat will always recognize it for what it is."
+  },
+  {
+    "id": "npcf_abomination_horror",
+    "name": "Abominable",
+    "origin": "npct_horror",
+    "base": false,
+    "type": "Trait",
+    "effect": "Scan doesn’t reveal any information about the Horror except that they are a Horror.",
+    "active_effects": [
+      {
+        "name": "Scan Immunity",
+        "detail": "Scan doesn’t reveal any information about you except that you are a Horror."
+      }
+    ]
+  },
+  {
+    "id": "npcf_mutations_horror",
+    "name": "Mutations",
+    "origin": "npct_horror",
+    "base": true,
+    "type": "Trait",
+    "effect": "The Horror may choose 1 option from the Horror Mutations list plus an additional option per tier."
+  },
+  {
+    "id": "npcf_disruptor_whip_horror",
+    "name": "Disruptor Whip",
+    "origin": "npct_horror",
+    "base": false,
+    "type": "Weapon",
+    "weapon_type": "Main Melee",
+    "attack_bonus": [2, 4, 6],
+    "accuracy": 1,
+    "range": [
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": "The target loses all Overshield."
+  },
+  {
+    "id": "npcf_quadruped_horror",
+    "name": "Quadruped",
+    "origin": "npct_horror",
+    "base": false,
+    "type": "Trait",
+    "effect": "The Horror gains Immunity to Prone and may move up to 4 spaces as a protocol.",
+    "active_effects": [
+      {
+        "name": "Quadruped",
+        "detail": "You gain Immunity to Prone and may move up to 4 spaces as a protocol.",
+        "add_resist": [
+          {
+            "immunity": "prone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "npcf_superfluous_extremeties_horror",
+    "name": "Superfluous Extremities",
+    "origin": "npct_horror",
+    "base": false,
+    "type": "Trait",
+    "effect": "The Horror gains +1 Accuracy to Grapple and may perform Improvised Attack as a quick action.",
+    "active_effects": [
+      {
+        "name": "Superfluous Extremities",
+        "detail": "You gain +1 Accuracy to Grapple and may perform Improvised Attack as a quick action.",
+        "bonuses": [
+          {
+            "type": "grapple",
+            "accuracy": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "npcf_artificial_horror",
+    "name": "Artificial",
+    "origin": "npct_horror",
+    "base": false,
+    "type": "Trait",
+    "effect": "This trait can only be applied if the Horror is Biological. The Horror is no longer Biological and gains Heat Cap 6."
+  },
+  {
+    "id": "npcf_terrifying_horror",
+    "name": "Terrifying",
+    "origin": "npct_horror",
+    "base": false,
+    "type": "Trait",
+    "effect": "Attacks against the Horror suffer +1 Difficulty if the attacker has line of sight to the target.",
+    "active_effects": [
+      {
+        "name": "Terrifying",
+        "detail": "Attacks against you suffer +1 Difficulty if the attacker has line of sight to the target."
+      }
+    ]
+  },
+  {
+    "id": "npcf_abhorrent_redundancies_horror",
+    "name": "Abhorrent Redundancies",
+    "origin": "npct_horror",
+    "base": false,
+    "type": "Trait",
+    "effect": "Whenever the Horror is reduced to 0 HP, they may roll 1d6. On a 5+, they return to 1 HP and gain {3/4/5} Overshield. After this trait triggers once, it only triggers again on a 6+.",
+    "active_effects": [
+      {
+        "name": "Abhorrent Redundancies",
+        "condition": "When reduced to 0 HP",
+        "detail": "You may roll 1d6. On a 5+, you return to 1 HP and gain {3/4/5} Overshield. After this trait triggers once, it only triggers again on a 6+.",
+        "add_other": [
+          {
+            "type": "overshield",
+            "val": [3, 4, 5]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "npcf_assimilaiton_maw_horror",
+    "name": "Assimilation Maw",
+    "origin": "npct_horror",
+    "base": false,
+    "type": "Weapon",
+    "effect": "Additionally, if the Horror destroys another character with this weapon, allied or hostile, or hits a wreck, they regain {10/15/20} HP. Wrecks and allies are automatically hit by this weapon. Wrecks hit by this weapon are automatically destroyed.",
+    "weapon_type": "Superheavy Melee",
+    "attack_bonus": [1, 2, 3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [8, 10, 12]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": {
+      "detail": "If the target is at half or less HP after this attack is resolved, they must succeed on a Hull save or be reduced to 0 HP.",
+      "save": "hull"
+    }
+  },
+  {
+    "id": "npcf_phase_shift_generator_horror",
+    "name": "Phase-Shift Generator",
+    "origin": "npct_horror",
+    "base": false,
+    "type": "System",
+    "effect": "As a protocol, the Horror may become Intangible until the start of their next turn. Alternatively they may clear Intangible. The Horror may not become Intangible if they used this system on their last turn.",
+    "actions": [
+      {
+        "name": "Phase-Shift",
+        "activation": "Protocol",
+        "detail": "You may become Intangible until the start of their next turn. Alternatively they may clear Intangible. You may not become Intangible if they used this system on their last turn."
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      }
+    ]
+  }
+]
