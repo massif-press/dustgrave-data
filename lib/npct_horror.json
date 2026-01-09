@@ -76,7 +76,7 @@
         "detail": "You gain +1 Accuracy to Grapple and may perform Improvised Attack as a quick action.",
         "bonuses": [
           {
-            "type": "grapple",
+            "id": "grapple",
             "accuracy": 1
           }
         ]
@@ -138,7 +138,7 @@
     "damage": [
       {
         "type": "Kinetic",
-        "damage": [8, 10, 12]
+        "val": [8, 10, 12]
       }
     ],
     "range": [

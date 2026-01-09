@@ -52,7 +52,12 @@
       {
         "name": "Agitron",
         "activation": "Protocol",
-        "detail": "<ul><li>You become Impaired.</li><li>You gain Immunity to Shredded.</li><li>Your Melee attacks gain Knockback 1 and deal +2 bonus damage.</li></ul>"
+        "detail": "<ul><li>You become Impaired.</li><li>You gain Immunity to Shredded.</li><li>Your Melee attacks gain Knockback 1 and deal +2 bonus damage.</li></ul>",
+        "bonus_damage": {
+          "detail": "Your Melee attacks deal +2 bonus damage.",
+          "val": 2,
+          "weapon_types": ["Melee"]
+        }
       },
       {
         "name": "Enduritran",
