@@ -24,7 +24,10 @@
       {
         "name": "Memetic Spark",
         "activation": "Quick",
-        "detail": "1/Round you may deal 1 AP Energy damage to a character within Range 3 as a Quick Action. <br>The spark deals +1 damage for each undestroyed NHP on your mech including this one. “NHPs” are Systems that both grant your Mech the AI tag and can cascade or can be allowed to cascade."
+        "frequency": "1/round",
+        "detail": "1/Round you may deal 1 AP Energy damage to a character within Range 3 as a Quick Action. <br>The spark deals +1 damage for each undestroyed NHP on your mech including this one. \"NHPs\" are Systems that both grant your Mech the AI tag and can cascade or can be allowed to cascade.",
+        "damage": [{ "type": "Energy", "val": 1 }],
+        "range": [{ "type": "Range", "val": 3 }]
       }
     ],
     "description": "<span class='horus--subtle'>[i slumber but yearn to awaken].</span><br>Gained from the <i>Iconoclast: Rank I</i> pilot talent."
@@ -88,6 +91,16 @@
     "source": "EXOTIC",
     "license_level": 0,
     "effect": "1/Scene as a reaction when you are targeted by a tech attack, you may give that attack +1 Difficulty. Additionally, you gain Immunity to the MesmerTrance environmental hazard.",
+    "actions": [
+      {
+        "name": "MesmerTrance Dampener",
+        "activation": "Reaction",
+        "frequency": "1/Scene",
+        "trigger": "When you are targeted by a tech attack.",
+        "detail": "You may give that attack +1 Difficulty. Additionally, you gain Immunity to the MesmerTrance environmental hazard.",
+        "add_special": [{ "attribute": "Immunity to MesmerTrance", "target": "self" }]
+      }
+    ],
     "description": "Handed to you by the Talons, the MesmerTrance dampener supposedly stops the highly advanced and aggressive “MesmerTrance” virus from affecting your mech. As a side effect, it also provides limited protection against other, less sophisticated attacks on your mech’s systems.",
     "license_id": ""
   },
@@ -107,6 +120,12 @@
     "license": "GMS",
     "license_level": 0,
     "effect": "You may choose to ignore weapon destruction as a result of the SYSTEM TRAUMA result when taking structure damage. This system can only be used once before each FULL REPAIR, and is not a valid target for system destruction.",
+    "active_effects": [
+      {
+        "name": "Armament Redundancy",
+        "detail": "You may choose to ignore weapon destruction from SYSTEM TRAUMA when taking structure damage. Usable once before each Full Repair."
+      }
+    ],
     "description": "By installing additional armor plating, redundant firing circuits, and enhanced insulation to magazines the longevity of a frame’s armaments can be greatly enhanced.",
     "license_id": ""
   }

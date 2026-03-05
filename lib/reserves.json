@@ -4,7 +4,13 @@
     "name": "Military-Grade Jetpack",
     "type": "Tactical",
     "label": "Resource",
-    "description": "Can be attached to any hardsuit, allowing the wearer to fly when they move or BOOST."
+    "description": "Can be attached to any hardsuit, allowing the wearer to fly when they move or BOOST.",
+    "active_effects": [
+      {
+        "name": "Military-Grade Jetpack",
+        "detail": "You may fly when you move or Boost."
+      }
+    ]
   },
   {
     "id": "reserve_incendiary_ammo_pilot_scale",
@@ -50,21 +56,42 @@
     "name": "Devastator Grenades",
     "type": "Tactical",
     "label": "Resource",
-    "description": "Your Frag Grenades deal +2 damage."
+    "description": "Your Frag Grenades deal +2 damage.",
+    "synergies": [
+      {
+        "locations": ["grenade"],
+        "detail": "Your Frag Grenades deal +2 damage."
+      }
+    ]
   },
   {
     "id": "reserve_junker_exo_rig",
     "name": "Junker Exo-Rig",
     "type": "Tactical",
     "label": "Resource",
-    "description": "You gain +1 ACCURACY to JOCKEY."
+    "description": "You gain +1 ACCURACY to JOCKEY.",
+    "synergies": [
+      {
+        "locations": ["jockey"],
+        "detail": "You gain +1 Accuracy to Jockey."
+      }
+    ]
   },
   {
     "id": "reserve_crash_cushions",
     "name": "Crash Cushions",
     "type": "Mech",
     "label": "Resource",
-    "description": "1/mission: When you become STUNNED, you may activate this to not become STUNNED."
+    "description": "1/mission: When you become STUNNED, you may activate this to not become STUNNED.",
+    "actions": [
+      {
+        "name": "Crash Cushions",
+        "activation": "Reaction",
+        "frequency": "1/mission",
+        "trigger": "You would become Stunned.",
+        "detail": "Activate this to negate the Stunned condition."
+      }
+    ]
   },
   {
     "id": "reserve_personal_cloak",
@@ -368,12 +395,6 @@
         "activation": "Protocol",
         "detail": "As a protocol, you may activate this to gain +1 ACCURACY on all attacks, saves, and checks until the start of your next turn.",
         "frequency": "1/mission"
-      }
-    ],
-    "synergies": [
-      {
-        "locations": ["skill_check"],
-        "detail": "1/mission: When forced to perform a save or check you may activate this to automatically succeed."
       }
     ]
   }

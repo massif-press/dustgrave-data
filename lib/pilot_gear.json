@@ -116,6 +116,10 @@
     "name": "Madrigal Power Crusher",
     "type": "Weapon",
     "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p><b>On Hit</b>: Target becomes Immobilized and Impaired until the end of its next turn.</p><p>This weapon automatically hits Terrain and deals 10 AP Kinetic damage.</p>",
+    "on_hit": {
+      "detail": "Target becomes Immobilized and Impaired until the end of its next turn.",
+      "add_status": [{ "id": "immobilized" }, { "id": "impaired" }]
+    },
     "tags": [
       {
         "id": "tg_unique"
@@ -213,6 +217,12 @@
     "name": "Madrigal Jump System",
     "type": "Gear",
     "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p>If your pilot is on foot you may Fly when you Boost. You must end this movement on solid ground or begin falling.</p>",
+    "active_effects": [
+      {
+        "name": "Madrigal Jump System",
+        "detail": "While on foot, you may Fly when you Boost. You must end on solid ground or begin falling."
+      }
+    ],
     "tags": [
       {
         "id": "tg_unique"
@@ -230,6 +240,12 @@
     "name": "Madrigal Thermal Visor",
     "type": "Gear",
     "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p>If your pilot is on foot your attacks ignore Cover.</p>",
+    "active_effects": [
+      {
+        "name": "Madrigal Thermal Visor",
+        "detail": "While on foot, your attacks ignore Cover."
+      }
+    ],
     "tags": [
       {
         "id": "tg_unique"
@@ -247,6 +263,12 @@
     "name": "Madrigal Active Camo",
     "type": "Gear",
     "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p>If your pilot is on foot, ranged attacks originating from beyond Range 3 treat you as having Hard Cover.</p>",
+    "active_effects": [
+      {
+        "name": "Madrigal Active Camo",
+        "detail": "While on foot, ranged attacks from beyond Range 3 treat you as having Hard Cover."
+      }
+    ],
     "tags": [
       {
         "id": "tg_unique"

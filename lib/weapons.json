@@ -37,8 +37,7 @@
     ],
     "source": "EXOTIC",
     "license_level": 0,
-    "effect": "",
-    "on_crit": "Target is knocked Prone.",
+    "on_crit": { "detail": "Target is knocked Prone.", "add_status": [{ "id": "prone" }] },
     "description": "The signature weapon of the former perpetual champion of Crater Pit. Since Brutus’s defeat in glorious combat, someone else now wields this massive tungsten ball on a reinforced chain. Ultimately a primitive weapon, this wrecker makes up for its lack of elegance with sheer brutality.",
     "license_id": ""
   },
@@ -71,6 +70,7 @@
     "license_level": 0,
     "actions": [
       {
+        "name": "Raise Shield",
         "activation": "Protocol",
         "detail": "As a protocol, you may raise this Shield to gain 4+Grit Overshield until the start of your next turn, at which point you lose all Overshield. You are Slowed while you have this Overshield. <br>You may not use this Protocol two turns in a row."
       }
@@ -98,8 +98,7 @@
             "type": "Kinetic",
             "val": "2d6"
           }
-        ],
-        "tags": []
+        ]
       },
       {
         "name": "Explosive Swing",
@@ -167,8 +166,11 @@
     ],
     "source": "EXOTIC",
     "license_level": 0,
-    "effect": "",
-    "on_crit": "Your target must succeed on a Systems save or become Jammed until the end of their next turn. On a success, they become Impaired for the same duration. Each character can only be affected this way 1/Scene.",
+    "on_crit": {
+      "detail": "Your target must succeed on a Systems save or become Jammed until the end of their next turn. On a success, they become Impaired for the same duration. Each character can only be affected this way 1/Scene.",
+      "save": "systems",
+      "add_status": [{ "id": "jammed" }, { "id": "impaired" }]
+    },
     "description": "The shock baton is a relatively recent development in the field of mech-to-mech “less-lethal” weaponry. A popular choice for law enforcement seeking to disable frames instead of destroying them, allowing their pilots to be taken alive.",
     "sp": 1,
     "license_id": ""
@@ -192,8 +194,7 @@
             "type": "Kinetic",
             "val": "2d3+1"
           }
-        ],
-        "tags": []
+        ]
       },
       {
         "name": "Superheavy",
