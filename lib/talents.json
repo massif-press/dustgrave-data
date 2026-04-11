@@ -44,7 +44,7 @@
         ]
       }
     ],
-    "icon_url": "https://i.imgur.com/tkXq4rz.png"
+    "icon_url": "https://d2c79xe1p61csc.cloudfront.net/icons/t_prospector.png"
   },
   {
     "id": "t_iconoclast",
@@ -88,7 +88,7 @@
         ]
       }
     ],
-    "icon_url": "https://i.imgur.com/R0vZWwL.png"
+    "icon_url": "https://d2c79xe1p61csc.cloudfront.net/icons/t_iconoclast.png"
   },
   {
     "id": "t_field_analyst",
@@ -136,6 +136,6 @@
         ]
       }
     ],
-    "icon_url": "https://i.imgur.com/YMwpX9P.png"
+    "icon_url": "https://d2c79xe1p61csc.cloudfront.net/icons/t_field_analyst.png"
   }
 ]
