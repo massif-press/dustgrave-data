@@ -20,6 +20,12 @@
     "license": "GMS",
     "license_level": 0,
     "effect": "Your Mech gains the AI tag; however, this NHP doesn’t count towards the number of AIs you may have installed at once. You are unable to hand over control of your mech to the Unstable NHP as a Protocol, but it can enter cascade. <br>Your mech gains “Memetic Spark.”",
+    "bonuses": [
+      {
+        "id": "ai_cap",
+        "val": 1
+      }
+    ],
     "actions": [
       {
         "name": "Memetic Spark",
