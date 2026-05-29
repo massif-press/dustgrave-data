@@ -2,42 +2,38 @@
   {
     "id": "npcf_abomination_horror",
     "name": "Abominable",
-    "origin": {
-      "type": "Template",
-      "name": "Horror",
-      "base": false
-    },
+    "origin": "npct_horror",
+    "base": false,
     "type": "Trait",
-    "effect": "Scan doesn’t reveal any information about the Horror except that they are a Horror."
+    "effect": "Scan doesn't reveal any information about the Horror except that they are a Horror.",
+    "active_effects": [
+      {
+        "name": "Abominable",
+        "detail": "Scan doesn't reveal any information about you except that you are a Horror."
+      }
+    ]
   },
   {
     "id": "npcf_mutations_horror",
     "name": "Mutations",
-    "origin": {
-      "type": "Template",
-      "name": "Horror",
-      "base": true
-    },
+    "origin": "npct_horror",
+    "base": true,
     "type": "Trait",
     "effect": "The Horror may choose 1 option from the Horror Mutations list plus an additional option per tier."
   },
   {
     "id": "npcf_disruptor_whip_horror",
     "name": "Disruptor Whip",
-    "origin": {
-      "type": "Template",
-      "name": "Horror",
-      "base": false
-    },
+    "origin": "npct_horror",
+    "base": false,
     "type": "Weapon",
-
     "weapon_type": "Main Melee",
     "attack_bonus": [2, 4, 6],
-    "accuracy": [1, 1, 1],
+    "accuracy": 1,
     "damage": [
       {
         "type": "Kinetic",
-        "val": [0, 0, 0]
+        "val": 0
       }
     ],
     "range": [
@@ -51,66 +47,77 @@
   {
     "id": "npcf_quadruped_horror",
     "name": "Quadruped",
-    "origin": {
-      "type": "Template",
-      "name": "Horror",
-      "base": false
-    },
+    "origin": "npct_horror",
+    "base": false,
     "type": "Trait",
-    "effect": "The Horror gains Immunity to Prone and may move up to 4 spaces as a protocol."
+    "effect": "The Horror gains Immunity to Prone and may move up to 4 spaces as a protocol.",
+    "add_resist": [{ "immunity": "prone" }],
+    "active_effects": [
+      {
+        "name": "Quadruped",
+        "detail": "You may move up to 4 spaces as a protocol."
+      }
+    ]
   },
   {
     "id": "npcf_superfluous_extremeties_horror",
     "name": "Superfluous Extremities",
-    "origin": {
-      "type": "Template",
-      "name": "Horror",
-      "base": false
-    },
+    "origin": "npct_horror",
+    "base": false,
     "type": "Trait",
-    "effect": "The Horror gains +1 Accuracy to Grapple and may perform Improvised Attack as a quick action."
+    "effect": "The Horror gains +1 Accuracy to Grapple and may perform Improvised Attack as a quick action.",
+    "bonuses": [{ "id": "grapple", "val": 1 }],
+    "active_effects": [
+      {
+        "name": "Superfluous Extremities",
+        "detail": "You gain +1 Accuracy to Grapple and may perform Improvised Attack as a quick action."
+      }
+    ]
   },
   {
     "id": "npcf_artificial_horror",
     "name": "Artificial",
-    "origin": {
-      "type": "Template",
-      "name": "Horror",
-      "base": false
-    },
+    "origin": "npct_horror",
+    "base": false,
     "type": "Trait",
-    "effect": "This trait can only be applied if the Horror is Biological. The Horror is no longer Biological and gains Heat Cap 6."
+    "effect": "This trait can only be applied if the Horror is Biological. The Horror is no longer Biological and gains Heat Cap 6.",
+    "bonuses": [{ "id": "heatcap", "val": 6 }]
   },
   {
     "id": "npcf_terrifying_horror",
     "name": "Terrifying",
-    "origin": {
-      "type": "Template",
-      "name": "Horror",
-      "base": false
-    },
+    "origin": "npct_horror",
+    "base": false,
     "type": "Trait",
-    "effect": "Attacks against the Horror suffer +1 Difficulty if the attacker has line of sight to the target."
+    "effect": "Attacks against the Horror suffer +1 Difficulty if the attacker has line of sight to the target.",
+    "active_effects": [
+      {
+        "name": "Terrifying",
+        "detail": "Attacks against you suffer +1 Difficulty if the attacker has line of sight to you."
+      }
+    ]
   },
   {
     "id": "npcf_abhorrent_redundancies_horror",
     "name": "Abhorrent Redundancies",
-    "origin": {
-      "type": "Template",
-      "name": "Horror",
-      "base": false
-    },
+    "origin": "npct_horror",
+    "base": false,
     "type": "Trait",
-    "effect": "Whenever the Horror is reduced to 0 HP, they may roll 1d6. On a 5+, they return to 1 HP and gain {3/4/5} Overshield. After this trait triggers once, it only triggers again on a 6+."
+    "effect": "Whenever the Horror is reduced to 0 HP, they may roll 1d6. On a 5+, they return to 1 HP and gain {3/4/5} Overshield. After this trait triggers once, it only triggers again on a 6+.",
+    "active_effects": [
+      {
+        "name": "Abhorrent Redundancies",
+        "condition": "Whenever you are reduced to 0 HP.",
+        "detail": "Roll 1d6. On a 5+, you return to 1 HP and gain {3/4/5} Overshield. After this trait triggers once, it only triggers again on a 6+.",
+        "frequency": "see detail"
+      }
+    ]
   },
   {
     "id": "npcf_assimilaiton_maw_horror",
     "name": "Assimilation Maw",
-    "origin": {
-      "type": "Template",
-      "name": "Horror",
-      "base": false
-    },
+    "origin": "npct_horror",
+    "base": false,
     "type": "Weapon",
     "effect": "Additionally, if the Horror destroys another character with this weapon, allied or hostile, or hits a wreck, they regain {10/15/20} HP. Wrecks and allies are automatically hit by this weapon. Wrecks hit by this weapon are automatically destroyed.",
     "weapon_type": "Superheavy Melee",
@@ -127,18 +134,26 @@
         "val": 1
       }
     ],
-    "on_hit": "If the target is at half or less HP after this attack is resolved, they must succeed on a Hull save or be reduced to 0 HP."
+    "on_hit": {
+      "detail": "If the target is at half or less HP after this attack is resolved, they must succeed on a Hull save or be reduced to 0 HP.",
+      "save": "hull"
+    }
   },
   {
     "id": "npcf_phase_shift_generator_horror",
     "name": "Phase-Shift Generator",
-    "origin": {
-      "type": "Template",
-      "name": "Horror",
-      "base": false
-    },
+    "origin": "npct_horror",
+    "base": false,
     "type": "System",
     "effect": "As a protocol, the Horror may become Intangible until the start of their next turn. Alternatively they may clear Intangible. The Horror may not become Intangible if they used this system on their last turn.",
+    "actions": [
+      {
+        "name": "Phase-Shift Generator",
+        "activation": "Protocol",
+        "detail": "Become Intangible until the start of your next turn. Alternatively, clear Intangible. You may not become Intangible if you used this system on your last turn.",
+        "add_status": [{ "id": "intangible", "duration": "start_next_turn_self" }]
+      }
+    ],
     "tags": [
       {
         "id": "tg_protocol"
@@ -152,47 +167,45 @@
   {
     "id": "npcf_construction_tools_industrial_mech",
     "name": "Construction Tools",
-    "origin": {
-      "type": "Template",
-      "name": "Industrial",
-      "base": true
-    },
+    "origin": "npct_industrial_mech",
+    "base": true,
     "type": "Trait",
     "effect": "The Industrial may pick a weapon from the Industrial Weapons list. They may take a second but must replace one of their base weapons when doing so."
   },
   {
     "id": "npcf_civilian_machine_industrial_mech",
     "name": "Civilian Machine",
-    "origin": {
-      "type": "Template",
-      "name": "Industrial",
-      "base": true
-    },
+    "origin": "npct_industrial_mech",
+    "base": true,
     "type": "Trait",
-    "effect": "The Industrial receives +1 Difficulty on saves and checks. Tech attacks gain +1 Accuracy against the Industrial."
+    "effect": "The Industrial receives +1 Difficulty on saves and checks. Tech attacks gain +1 Accuracy against the Industrial.",
+    "bonuses": [
+      { "id": "hull", "accuracy": -1 },
+      { "id": "agility", "accuracy": -1 },
+      { "id": "systems", "accuracy": -1 },
+      { "id": "engineering", "accuracy": -1 }
+    ],
+    "active_effects": [
+      {
+        "name": "Civilian Machine",
+        "detail": "You receive +1 Difficulty on saves and checks. Tech attacks gain +1 Accuracy against you."
+      }
+    ]
   },
   {
     "id": "npcf_bulky_construction_industrial_mech",
     "name": "Bulky Construction",
-    "origin": {
-      "type": "Template",
-      "name": "Industrial",
-      "base": true
-    },
+    "origin": "npct_industrial_mech",
+    "base": true,
     "type": "Trait",
     "effect": "The Industrial gains +1 Armor but Boost becomes a full action instead of a quick action.",
-    "bonus": {
-      "armor": 1
-    }
+    "bonuses": [{ "id": "armor", "val": 1 }]
   },
   {
     "id": "npcf_rock_drill_industrial_mech",
     "name": "Rock Drill",
-    "origin": {
-      "type": "Template",
-      "name": "Industrial",
-      "base": false
-    },
+    "origin": "npct_industrial_mech",
+    "base": false,
     "type": "Weapon",
     "effect": "Additionally, the Industrial may automatically deal 50 AP kinetic damage to an adjacent piece of terrain as a quick action.",
     "tags": [
@@ -214,18 +227,17 @@
         "val": 2
       }
     ],
-    "on_hit": "The target is knocked Prone."
+    "on_hit": {
+      "detail": "The target is knocked Prone.",
+      "add_status": [{ "id": "prone" }]
+    }
   },
   {
     "id": "npcf_fusion_cutter_industrial_mech",
     "name": "Fusion Cutter",
-    "origin": {
-      "type": "Template",
-      "name": "Industrial",
-      "base": false
-    },
+    "origin": "npct_industrial_mech",
+    "base": false,
     "type": "Weapon",
-
     "weapon_type": "Heavy Melee",
     "attack_bonus": [1, 2, 3],
     "damage": [
@@ -252,13 +264,11 @@
   {
     "id": "npcf_industrial_clamps_industrial_mech",
     "name": "Industrial Clamps",
-    "origin": {
-      "type": "Template",
-      "name": "Industrial",
-      "base": false
-    },
+    "origin": "npct_industrial_mech",
+    "base": false,
     "type": "Weapon",
     "effect": "The Industrial gains +1 Accuracy to Grapple. This weapon automatically hits Grappled characters.",
+    "bonuses": [{ "id": "grapple", "val": 1 }],
     "weapon_type": "Main Melee",
     "attack_bonus": [1, 2, 3],
     "damage": [
@@ -277,13 +287,11 @@
   {
     "id": "npcf_rivet_cannon_industrial_mech",
     "name": "Rivet Cannon",
-    "origin": {
-      "type": "Template",
-      "name": "Industrial",
-      "base": false
-    },
+    "origin": "npct_industrial_mech",
+    "base": false,
     "type": "Weapon",
-    "effect": "This Attack can make {1/2/3} attacks. If one of these attacks knocks a character back into a piece of terrain that stops their movement, they become Immobilized until the end of their next turn.",
+    "effect": "If one of these attacks knocks a character back into a piece of terrain that stops their movement, they become Immobilized until the end of their next turn.",
+    "attacks": [1, 2, 3],
     "weapon_type": "Main Cannon",
     "attack_bonus": [1, 2, 3],
     "tags": [
@@ -312,13 +320,12 @@
   {
     "id": "npcf_buzzsaw_industrial_mech",
     "name": "Buzzsaw",
-    "origin": {
-      "type": "Template",
-      "name": "Industrial",
-      "base": false
-    },
+    "origin": "npct_industrial_mech",
+    "base": false,
     "type": "Weapon",
-    "effect": "On critical hit: This weapon’s base damage is doubled.",
+    "on_crit": {
+      "detail": "This weapon's base damage is doubled."
+    },
     "weapon_type": "Main Melee",
     "attack_bonus": [2, 4, 6],
     "accuracy": [1, 1, 1],
@@ -338,11 +345,8 @@
   {
     "id": "npcf_wrecker_industrial_mech",
     "name": "Wrecker",
-    "origin": {
-      "type": "Template",
-      "name": "Industrial",
-      "base": false
-    },
+    "origin": "npct_industrial_mech",
+    "base": false,
     "type": "Weapon",
     "effect": "Whenever this weapon is used to attack it attacks all characters within Threat.",
     "weapon_type": "Heavy Melee",
@@ -364,24 +368,26 @@
   {
     "id": "npcf_operatives_spec_op",
     "name": "Operatives",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": true
-    },
+    "origin": "npct_commando_spec_op",
+    "base": true,
     "type": "Trait",
-    "effect": "When choosing optional systems and traits, the Spec Ops can also choose from the Spec Ops Systems and Traits list. Additionally, the Spec Ops can’t take the Grunt, Elite, or Ultra templates."
+    "effect": "When choosing optional systems and traits, the Spec Ops can also choose from the Spec Ops Systems and Traits list. Additionally, the Spec Ops can't take the Grunt, Elite, or Ultra templates."
   },
   {
     "id": "npcf_active_camo_spec_op",
     "name": "Active Camo",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": true
-    },
+    "origin": "npct_commando_spec_op",
+    "base": true,
     "type": "System",
-    "effect": "As a protocol, the Spec Ops may expend a charge to become Invisible until the end of their next turn. For the duration of this effect, the Spec Ops’ next melee or ranged attack becomes a critical hit if it hits.",
+    "effect": "As a protocol, the Spec Ops may expend a charge to become Invisible until the end of their next turn. For the duration of this effect, the Spec Ops' next melee or ranged attack becomes a critical hit if it hits.",
+    "actions": [
+      {
+        "name": "Active Camo",
+        "activation": "Protocol",
+        "detail": "Expend a charge to become Invisible until the end of your next turn. Your next melee or ranged attack becomes a critical hit if it hits.",
+        "add_status": [{ "id": "invisible", "duration": "end_next_turn_self" }]
+      }
+    ],
     "tags": [
       {
         "id": "tg_protocol"
@@ -395,57 +401,73 @@
   {
     "id": "npcf_deadly_precision_spec_op",
     "name": "Deadly Precision",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": true
-    },
+    "origin": "npct_commando_spec_op",
+    "base": true,
     "type": "Trait",
-    "effect": "The Spec Ops deals +{2/3/3} bonus damage on critical hits."
+    "effect": "The Spec Ops deals +{2/3/3} bonus damage on critical hits.",
+    "active_effects": [
+      {
+        "name": "Deadly Precision",
+        "detail": "You deal +{2/3/3} bonus damage on critical hits.",
+        "bonus_damage": "{2/3/3}"
+      }
+    ]
   },
   {
     "id": "npcf_coordinated_carnage_spec_op",
     "name": "Coordinated Carnage",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": true
-    },
+    "origin": "npct_commando_spec_op",
+    "base": true,
     "type": "Trait",
-    "effect": "After all Spec Ops characters have taken their turns in a round, a single Spec Ops character may take an additional turn in the usual turn order."
+    "effect": "After all Spec Ops characters have taken their turns in a round, a single Spec Ops character may take an additional turn in the usual turn order.",
+    "active_effects": [
+      {
+        "name": "Coordinated Carnage",
+        "detail": "After all Spec Ops characters have taken their turns in a round, a single Spec Ops character may take an additional turn in the usual turn order."
+      }
+    ]
   },
   {
     "id": "npcf_full_spectrum_sensor_suite_spec_op",
     "name": "Full-Spectrum Sensor Suite",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": false
-    },
+    "origin": "npct_commando_spec_op",
+    "base": false,
     "type": "System",
-    "effect": "The Spec Ops may Lock On as a protocol. Whenever an allied Spec Ops character within Range 10 consumes any Lock On, their attack is not affected by cover. This system can only be taken by one Spec Ops per combat."
+    "effect": "The Spec Ops may Lock On as a protocol. Whenever an allied Spec Ops character within Range 10 consumes any Lock On, their attack is not affected by cover. This system can only be taken by one Spec Ops per combat.",
+    "actions": [
+      {
+        "name": "Full-Spectrum Sensor Suite",
+        "activation": "Protocol",
+        "detail": "Lock On to a target within Sensors. Whenever an allied Spec Ops character within Range 10 consumes any Lock On, their attack is not affected by cover. This system can only be taken by one Spec Ops per combat."
+      }
+    ]
   },
   {
     "id": "npcf_automated_battlefield_awareness_node_spec_op",
     "name": "Automated Battlefield Awareness Node",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": false
-    },
+    "origin": "npct_commando_spec_op",
+    "base": false,
     "type": "System",
-    "effect": "The Spec Ops gains the Battlefield Awareness reaction, which can be used any number of times per round. This system can only be taken by one Spec Ops per combat. <br><b>Battlefield Awareness </b><br><b>Trigger:</b> An allied Spec Ops character within Range 8 and line of sight would roll a save. <br><b>Effect:</b> They automatically succeed on the save before rolling any dice."
+    "effect": "The Spec Ops gains the Battlefield Awareness reaction, which can be used any number of times per round. This system can only be taken by one Spec Ops per combat.",
+    "actions": [
+      {
+        "name": "Battlefield Awareness",
+        "activation": "Reaction",
+        "trigger": "An allied Spec Ops character within Range 8 and line of sight would roll a save.",
+        "detail": "They automatically succeed on the save before rolling any dice."
+      }
+    ]
   },
   {
     "id": "npcf_serrated_machete_spec_op",
     "name": "Serrated Machete",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": false
-    },
+    "origin": "npct_commando_spec_op",
+    "base": false,
     "type": "Weapon",
-    "effect": "On critical hit: The target becomes Shredded until the end of their next turn.",
+    "on_crit": {
+      "detail": "The target becomes Shredded until the end of their next turn.",
+      "add_status": [{ "id": "shredded", "duration": "next_turn_end_target" }]
+    },
     "tags": [
       {
         "id": "tg_thrown",
@@ -470,35 +492,37 @@
   {
     "id": "npcf_special_munitions_spec_op",
     "name": "Special Munitions",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": false
-    },
+    "origin": "npct_commando_spec_op",
+    "base": false,
     "type": "Trait",
-    "effect": "This character’s Ranged Attacks gain “<b>On critical hit:</b> The target is knocked Prone.” <br>Additionally, before making a Ranged Attack that deals Kinetic, Energy, or Explosive Damage, the Spec Ops may swap that damage type for one of the other two."
+    "effect": "This character's Ranged Attacks gain “<b>On critical hit:</b> The target is knocked Prone.” <br>Additionally, before making a Ranged Attack that deals Kinetic, Energy, or Explosive Damage, the Spec Ops may swap that damage type for one of the other two.",
+    "active_effects": [
+      {
+        "name": "Special Munitions",
+        "detail": "Your Ranged Attacks gain 'On critical hit: The target is knocked Prone.' Before making a Ranged Attack that deals Kinetic, Energy, or Explosive Damage, you may swap that damage type for one of the other two."
+      }
+    ]
   },
   {
     "id": "npcf_bulwark_mods_spec_op",
     "name": "Bulwark Mods",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": false
-    },
+    "origin": "npct_commando_spec_op",
+    "base": false,
     "type": "Trait",
-    "effect": "The Spec Ops ignores difficult and dangerous terrain."
+    "effect": "The Spec Ops ignores difficult and dangerous terrain.",
+    "active_effects": [
+      {
+        "name": "Bulwark Mods",
+        "detail": "You ignore difficult and dangerous terrain."
+      }
+    ]
   },
   {
     "id": "npcf_gyrojet_cannon_spec_op",
     "name": "Gyro-Jet Cannon",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": false
-    },
+    "origin": "npct_commando_spec_op",
+    "base": false,
     "type": "Weapon",
-
     "tags": [
       {
         "id": "tg_loading"
@@ -526,23 +550,30 @@
   {
     "id": "npcf_burst_jets_spec_op",
     "name": "Jump Packs",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": false
-    },
+    "origin": "npct_commando_spec_op",
+    "base": false,
     "type": "System",
-    "effect": "The Spec Ops can fly whenever it Boosts. It must end this movement on a solid surface or begin falling."
+    "effect": "The Spec Ops can fly whenever it Boosts. It must end this movement on a solid surface or begin falling.",
+    "active_effects": [
+      {
+        "name": "Jump Packs",
+        "detail": "You can fly whenever you Boost. You must end this movement on a solid surface or begin falling."
+      }
+    ]
   },
   {
     "id": "npcf_null_perception_coating_spec_op",
     "name": "Null-Perception Coating",
-    "origin": {
-      "type": "Template",
-      "name": "Spec Op",
-      "base": false
-    },
+    "origin": "npct_commando_spec_op",
+    "base": false,
     "type": "Trait",
-    "effect": "The Spec Ops gains Immunity to Lock On."
+    "effect": "The Spec Ops gains Immunity to Lock On.",
+    "add_resist": [{ "immunity": "lock_on" }],
+    "active_effects": [
+      {
+        "name": "Null-Perception Coating",
+        "detail": "You are immune to Lock On."
+      }
+    ]
   }
 ]

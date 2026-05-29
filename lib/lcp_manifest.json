@@ -16,6 +16,11 @@
       "version": "2.0.1",
       "date": "2026-05-01",
       "changes": ["Fixed Unstable NHP missing the 'AI Cap' bonus."]
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-05-29",
+      "changes": ["Added additional v3 bonuses and active effects to NPC Features."]
     }
   ],
   "v3": true
