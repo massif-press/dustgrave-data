@@ -12,6 +12,9 @@
         "id": "tg_unique"
       },
       {
+        "id": "tg_ai"
+      },
+      {
         "id": "tg_round",
         "val": 1
       }

@@ -120,6 +120,19 @@
       {
         "name": "Near-Threat Targeting Processor",
         "description": "The Viceroy treats its LAUNCHER weapons as though they are also CQB weapons with THREAT 3.",
+        "bonuses": [
+          {
+            "id": "add_weapon_type",
+            "val": "CQB",
+            "weapon_types": ["Launcher"]
+          },
+          {
+            "id": "threat",
+            "val": 3,
+            "weapon_types": ["Launcher"],
+            "replace": true
+          }
+        ],
         "synergies": [
           {
             "locations": ["weapon"],

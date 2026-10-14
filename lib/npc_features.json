@@ -66,7 +66,7 @@
     "base": false,
     "type": "Trait",
     "effect": "The Horror gains +1 Accuracy to Grapple and may perform Improvised Attack as a quick action.",
-    "bonuses": [{ "id": "grapple", "val": 1 }],
+    "bonuses": [{ "id": "grapple", "accuracy": 1 }],
     "active_effects": [
       {
         "name": "Superfluous Extremities",
@@ -268,7 +268,7 @@
     "base": false,
     "type": "Weapon",
     "effect": "The Industrial gains +1 Accuracy to Grapple. This weapon automatically hits Grappled characters.",
-    "bonuses": [{ "id": "grapple", "val": 1 }],
+    "bonuses": [{ "id": "grapple", "accuracy": 1 }],
     "weapon_type": "Main Melee",
     "attack_bonus": [1, 2, 3],
     "damage": [
